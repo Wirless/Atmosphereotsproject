@@ -1,0 +1,12 @@
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\theforgottenserver.vcxproj.CopyComplete
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\theforgottenserver-x64.exe
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\boost_filesystem-vc143-mt-x64-1_81.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\boost_iostreams-vc143-mt-x64-1_81.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\zlib1.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\bz2.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\liblzma.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\zstd.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\fmt.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\libmariadb.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\lua51.dll
+C:\Users\Dell\Desktop\TFS-1.5-Downgrades-7.72\vc17\x64\Release\pugixml.dll

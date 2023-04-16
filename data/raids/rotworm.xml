@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="1000" type="warning" message="wow wow" />
+	<announce delay="25000" type="warning" message="wow!" />
+
+	<!-- Area spawns - you can specify raid area or use range value -->
+	<areaspawn delay="2000" radius="4" centerx="1055" centery="975" centerz="8">
+		<monster name="rotworm" amount="7" /><!-- Specified amount -->
+	</areaspawn>
+
+	
+
+	<!-- Single spawns 
+	<singlespawn delay="15000" name="Cave Rat" x="93" y="123" z="7" />
+	<singlespawn delay="30000" name="Cave Rat" x="98" y="125" z="7" />
+	<singlespawn delay="30000" name="Cave Rat" x="94" y="128" z="7" />-->
+</raid>

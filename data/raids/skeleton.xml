@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<announce delay="1000" type="warning" message="Rattling bones" />
+	<announce delay="25000" type="warning" message="Rattling bones" />
+	<areaspawn delay="2000" radius="4" centerx="1075" centery="961" centerz="7">
+		<monster name="skeleton" amount="25" />
+	</areaspawn>
+</raid>

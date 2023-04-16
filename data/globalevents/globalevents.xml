@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
+	<globalevent name="Experience" interval="1000" script="experience.lua" />
+	<globalevent name="saveall" interval="60000" script="saveall.lua" />
+	
+	<!-- respawns-->
+	<globalevent name="grapes" interval="60000" script="grapes.lua" />
+	<globalevent name="crown shield" interval="7200000" script="respawns/crownshield.lua" />
+	<globalevent name="wedding ring" interval="1200000" script="respawns/weddingrings.lua" />
+	<globalevent name="inkwell" interval="600000" script="respawns/inkwell.lua" />
+	<globalevent name="pots" interval="600000" script="respawns/pots.lua" />
+	<globalevent name="blankrunes" interval="600000" script="respawns/blankrunes.lua" />
+	<globalevent name="maps" interval="600000" script="respawns/maps.lua" />
+	<globalevent name="modelship" interval="14200000" script="respawns/modelship.lua" />
+	<globalevent name="holyorchid" interval="20000" script="respawns/holyorchid.lua" />
+	
+	<!--
+	<globalevent name="timer_example" time="12:00:00" script="my_script.lua" />
+	<globalevent name="toptemple" interval="1000" script="spawnboss/toptemple.lua" />
+	-->
+</globalevents>

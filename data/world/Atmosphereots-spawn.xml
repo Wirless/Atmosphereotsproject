@@ -1,0 +1,1527 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="1211" centery="967" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1213" centery="968" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="969" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="973" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="973" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1213" centery="974" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1218" centery="974" centerz="2" radius="2">
+		<monster name="black knight" x="0" y="1" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1225" centery="974" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="975" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="975" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="979" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="2" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="2" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1213" centery="980" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="981" centerz="2" radius="1">
+		<monster name="monk" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1010" centery="999" centerz="2" radius="5">
+		<monster name="necromancer" x="2" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1002" centery="1000" centerz="2" radius="1">
+		<monster name="minotaur guard" x="0" y="0" z="2" spawntime="240" />
+	</spawn>
+	<spawn centerx="1114" centery="1121" centerz="2" radius="3">
+		<npc name="Riddler" x="-1" y="0" z="2" spawntime="120" />
+	</spawn>
+	<spawn centerx="1543" centery="1142" centerz="2" radius="3">
+		<npc name="Riddler" x="-1" y="0" z="2" spawntime="120" />
+	</spawn>
+	<spawn centerx="1211" centery="967" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1217" centery="967" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="967" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1213" centery="968" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1219" centery="968" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1225" centery="968" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="969" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1217" centery="969" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="969" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="973" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1217" centery="973" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="973" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1213" centery="974" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1219" centery="974" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1225" centery="974" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="975" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1217" centery="975" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="975" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="979" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1217" centery="979" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="979" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
+		<monster name="monk" x="0" y="1" z="3" spawntime="240" />
+		<monster name="monk" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1213" centery="980" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1219" centery="980" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1225" centery="980" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1211" centery="981" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1217" centery="981" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1223" centery="981" centerz="3" radius="1">
+		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1014" centery="999" centerz="3" radius="1">
+		<monster name="orc berserker" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1002" centery="1000" centerz="3" radius="1">
+		<monster name="minotaur guard" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1008" centery="1003" centerz="3" radius="1">
+		<monster name="orc rider" x="0" y="0" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="1115" centery="1123" centerz="3" radius="5">
+		<monster name="minotaur guard" x="1" y="0" z="3" spawntime="120" />
+		<monster name="minotaur mage" x="1" y="1" z="3" spawntime="120" />
+		<monster name="minotaur archer" x="-3" y="2" z="3" spawntime="120" />
+		<monster name="minotaur archer" x="0" y="2" z="3" spawntime="120" />
+	</spawn>
+	<spawn centerx="1544" centery="1144" centerz="3" radius="5">
+		<monster name="minotaur guard" x="1" y="0" z="3" spawntime="120" />
+		<monster name="minotaur mage" x="1" y="1" z="3" spawntime="120" />
+		<monster name="minotaur archer" x="-3" y="2" z="3" spawntime="120" />
+		<monster name="minotaur archer" x="0" y="2" z="3" spawntime="120" />
+	</spawn>
+	<spawn centerx="1212" centery="971" centerz="4" radius="5">
+		<monster name="hunter" x="5" y="-4" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="-3" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="-2" z="4" spawntime="240" />
+		<monster name="stalker" x="4" y="-2" z="4" spawntime="240" />
+		<monster name="assassin" x="5" y="-2" z="4" spawntime="240" />
+		<monster name="stalker" x="1" y="2" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="3" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="3" z="4" spawntime="240" />
+		<monster name="amazon" x="-2" y="4" z="4" spawntime="240" />
+		<monster name="stalker" x="-1" y="4" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="4" z="4" spawntime="240" />
+		<monster name="amazon" x="4" y="4" z="4" spawntime="240" />
+		<monster name="assassin" x="5" y="4" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1218" centery="971" centerz="4" radius="5">
+		<monster name="stalker" x="1" y="-4" z="4" spawntime="240" />
+		<monster name="hunter" x="5" y="-4" z="4" spawntime="240" />
+		<monster name="smuggler" x="0" y="-3" z="4" spawntime="240" />
+		<monster name="hunter" x="5" y="-3" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="-2" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="-2" z="4" spawntime="240" />
+		<monster name="amazon" x="4" y="-2" z="4" spawntime="240" />
+		<monster name="assassin" x="5" y="-2" z="4" spawntime="240" />
+		<monster name="valkyrie" x="1" y="2" z="4" spawntime="240" />
+		<monster name="smuggler" x="0" y="3" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="3" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="4" z="4" spawntime="240" />
+		<monster name="amazon" x="4" y="4" z="4" spawntime="240" />
+		<monster name="assassin" x="5" y="4" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1224" centery="971" centerz="4" radius="5">
+		<monster name="valkyrie" x="1" y="-4" z="4" spawntime="240" />
+		<monster name="smuggler" x="0" y="-3" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="-2" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="-2" z="4" spawntime="240" />
+		<monster name="valkyrie" x="1" y="2" z="4" spawntime="240" />
+		<monster name="smuggler" x="0" y="3" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="3" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="4" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1212" centery="977" centerz="4" radius="5">
+		<monster name="valkyrie" x="1" y="2" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="3" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="3" z="4" spawntime="240" />
+		<monster name="amazon" x="-2" y="4" z="4" spawntime="240" />
+		<monster name="assassin" x="-1" y="4" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="4" z="4" spawntime="240" />
+		<monster name="amazon" x="4" y="4" z="4" spawntime="240" />
+		<monster name="assassin" x="5" y="4" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1218" centery="977" centerz="4" radius="5">
+		<monster name="valkyrie" x="1" y="2" z="4" spawntime="240" />
+		<monster name="smuggler" x="0" y="3" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="3" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="4" z="4" spawntime="240" />
+		<monster name="amazon" x="4" y="4" z="4" spawntime="240" />
+		<monster name="assassin" x="5" y="4" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1224" centery="977" centerz="4" radius="5">
+		<monster name="valkyrie" x="1" y="2" z="4" spawntime="240" />
+		<monster name="smuggler" x="0" y="3" z="4" spawntime="240" />
+		<monster name="hunter" x="1" y="3" z="4" spawntime="240" />
+		<monster name="stalker" x="0" y="4" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1212" centery="983" centerz="4" radius="5" />
+	<spawn centerx="1218" centery="983" centerz="4" radius="5" />
+	<spawn centerx="1224" centery="983" centerz="4" radius="5" />
+	<spawn centerx="1001" centery="998" centerz="4" radius="1">
+		<monster name="orc warrior" x="0" y="0" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1007" centery="1001" centerz="4" radius="5">
+		<monster name="orc shaman" x="-1" y="-3" z="4" spawntime="240" />
+		<monster name="orc rider" x="3" y="-3" z="4" spawntime="240" />
+		<monster name="minotaur guard" x="-4" y="0" z="4" spawntime="240" />
+		<monster name="dwarf guard" x="0" y="1" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1009" centery="1008" centerz="4" radius="1">
+		<monster name="orc warlord" x="-1" y="0" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="947" centery="1016" centerz="4" radius="1">
+		<monster name="priestess" x="0" y="0" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1186" centery="1024" centerz="4" radius="1">
+		<monster name="giant spider" x="0" y="0" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="1114" centery="1123" centerz="4" radius="5">
+		<monster name="minotaur guard" x="-3" y="0" z="4" spawntime="120" />
+		<monster name="minotaur mage" x="1" y="0" z="4" spawntime="120" />
+		<monster name="minotaur guard" x="-2" y="1" z="4" spawntime="120" />
+	</spawn>
+	<spawn centerx="1543" centery="1144" centerz="4" radius="5">
+		<monster name="minotaur guard" x="-3" y="0" z="4" spawntime="120" />
+		<monster name="minotaur mage" x="1" y="0" z="4" spawntime="120" />
+		<monster name="minotaur guard" x="-2" y="1" z="4" spawntime="120" />
+	</spawn>
+	<spawn centerx="1098" centery="1167" centerz="4" radius="1">
+		<monster name="minotaur archer" x="-1" y="1" z="4" spawntime="120" />
+	</spawn>
+	<spawn centerx="1214" centery="976" centerz="5" radius="30">
+		<monster name="spider" x="-7" y="-11" z="5" spawntime="120" />
+		<monster name="spider" x="-3" y="-11" z="5" spawntime="120" />
+		<monster name="spider" x="-4" y="-10" z="5" spawntime="120" />
+		<monster name="snake" x="23" y="-9" z="5" spawntime="120" />
+		<monster name="snake" x="20" y="-5" z="5" spawntime="120" />
+		<monster name="amazon" x="3" y="-3" z="5" spawntime="240" />
+		<monster name="amazon" x="3" y="-2" z="5" spawntime="240" />
+		<monster name="minotaur guard" x="2" y="6" z="5" spawntime="240" />
+		<monster name="amazon" x="9" y="9" z="5" spawntime="240" />
+		<monster name="snake" x="22" y="14" z="5" spawntime="120" />
+		<monster name="spider" x="17" y="17" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1221" centery="985" centerz="5" radius="5" />
+	<spawn centerx="1007" centery="1003" centerz="5" radius="5">
+		<monster name="orc spearman" x="-5" y="-5" z="5" spawntime="240" />
+		<monster name="orc spearman" x="-3" y="-2" z="5" spawntime="240" />
+		<monster name="orc" x="-5" y="1" z="5" spawntime="240" />
+		<monster name="orc spearman" x="4" y="2" z="5" spawntime="240" />
+		<monster name="orc" x="-5" y="3" z="5" spawntime="240" />
+		<monster name="assassin" x="-4" y="4" z="5" spawntime="240" />
+		<monster name="orc" x="4" y="5" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1023" centery="1004" centerz="5" radius="1">
+		<monster name="swamp troll" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1002" centery="1009" centerz="5" radius="1">
+		<monster name="orc" x="0" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1005" centery="1010" centerz="5" radius="1">
+		<monster name="orc warrior" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1044" centery="1010" centerz="5" radius="1">
+		<monster name="warlock" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="946" centery="1019" centerz="5" radius="1">
+		<monster name="minotaur mage" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1185" centery="1020" centerz="5" radius="1">
+		<monster name="tarantula" x="1" y="0" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1177" centery="1025" centerz="5" radius="1">
+		<monster name="tarantula" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="908" centery="1037" centerz="5" radius="1">
+		<monster name="beholder" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="926" centery="1040" centerz="5" radius="1">
+		<monster name="fire devil" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="899" centery="1041" centerz="5" radius="1">
+		<monster name="beholder" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1206" centery="1042" centerz="5" radius="1">
+		<monster name="witch" x="0" y="0" z="5" spawntime="240" />
+		<monster name="hunter" x="-1" y="1" z="5" spawntime="240" />
+		<monster name="elf arcanist" x="0" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1208" centery="1045" centerz="5" radius="1">
+		<monster name="elder beholder" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="903" centery="1050" centerz="5" radius="1">
+		<monster name="stone golem" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="1114" centery="1118" centerz="5" radius="3">
+		<monster name="ghoul" x="0" y="1" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1113" centery="1124" centerz="5" radius="5">
+		<monster name="minotaur guard" x="-1" y="0" z="5" spawntime="120" />
+		<monster name="minotaur guard" x="2" y="0" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1543" centery="1139" centerz="5" radius="3">
+		<monster name="ghoul" x="0" y="1" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1542" centery="1145" centerz="5" radius="5">
+		<monster name="minotaur guard" x="-1" y="0" z="5" spawntime="120" />
+		<monster name="minotaur guard" x="2" y="0" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1098" centery="1167" centerz="5" radius="1">
+		<monster name="minotaur guard" x="0" y="1" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1097" centery="1171" centerz="5" radius="1">
+		<monster name="minotaur guard" x="1" y="0" z="5" spawntime="120" />
+	</spawn>
+	<spawn centerx="1178" centery="931" centerz="6" radius="1">
+		<monster name="hydra" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1129" centery="938" centerz="6" radius="5">
+		<monster name="dragon" x="-1" y="1" z="6" spawntime="240" />
+		<monster name="dragon lord" x="-1" y="5" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1174" centery="938" centerz="6" radius="2">
+		<npc name="Hoggle" x="0" y="-1" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1221" centery="971" centerz="6" radius="30">
+		<monster name="goblin" x="13" y="-12" z="6" spawntime="120" />
+		<monster name="goblin" x="-7" y="-11" z="6" spawntime="120" />
+		<monster name="goblin" x="17" y="-5" z="6" spawntime="120" />
+		<monster name="cyclops" x="-1" y="-3" z="6" spawntime="120" />
+		<monster name="goblin" x="18" y="-3" z="6" spawntime="120" />
+		<monster name="cyclops" x="10" y="0" z="6" spawntime="120" />
+		<monster name="skeleton" x="-2" y="5" z="6" spawntime="120" />
+		<monster name="skeleton" x="-2" y="7" z="6" spawntime="120" />
+		<monster name="demon skeleton" x="0" y="7" z="6" spawntime="120" />
+		<monster name="skeleton" x="0" y="8" z="6" spawntime="120" />
+		<monster name="cyclops" x="8" y="8" z="6" spawntime="120" />
+		<monster name="goblin" x="19" y="13" z="6" spawntime="120" />
+		<monster name="demon skeleton" x="-4" y="14" z="6" spawntime="120" />
+		<monster name="cyclops" x="2" y="18" z="6" spawntime="120" />
+		<monster name="cyclops" x="-15" y="22" z="6" spawntime="120" />
+		<monster name="goblin" x="4" y="23" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1065" centery="982" centerz="6" radius="1">
+		<monster name="hero" x="-1" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1022" centery="985" centerz="6" radius="1">
+		<monster name="banshee" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1216" centery="985" centerz="6" radius="1" />
+	<spawn centerx="1221" centery="990" centerz="6" radius="1" />
+	<spawn centerx="923" centery="994" centerz="6" radius="1">
+		<monster name="deer" x="1" y="0" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="923" centery="996" centerz="6" radius="1">
+		<monster name="deer" x="1" y="0" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="924" centery="996" centerz="6" radius="1">
+		<monster name="deer" x="1" y="0" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="994" centery="998" centerz="6" radius="1">
+		<monster name="smuggler" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="923" centery="1000" centerz="6" radius="5">
+		<monster name="deer" x="-2" y="2" z="6" spawntime="120" />
+		<monster name="deer" x="1" y="2" z="6" spawntime="120" />
+		<monster name="deer" x="-3" y="4" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1002" centery="1000" centerz="6" radius="1">
+		<monster name="goblin" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1006" centery="1000" centerz="6" radius="1">
+		<monster name="frost troll" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="920" centery="1002" centerz="6" radius="1" />
+	<spawn centerx="923" centery="1002" centerz="6" radius="1" />
+	<spawn centerx="1196" centery="1003" centerz="6" radius="1">
+		<monster name="poison spider" x="1" y="0" z="6" spawntime="120" />
+		<monster name="minotaur guard" x="1" y="1" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="919" centery="1004" centerz="6" radius="1" />
+	<spawn centerx="1006" centery="1005" centerz="6" radius="1">
+		<monster name="orc" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1182" centery="1005" centerz="6" radius="1">
+		<monster name="minotaur guard" x="-1" y="0" z="6" spawntime="240" />
+		<monster name="poison spider" x="1" y="0" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1027" centery="1007" centerz="6" radius="1">
+		<monster name="troll" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1003" centery="1008" centerz="6" radius="1">
+		<monster name="dwarf" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1042" centery="1010" centerz="6" radius="1">
+		<monster name="witch" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1008" centery="1013" centerz="6" radius="1">
+		<monster name="elf" x="0" y="0" z="6" spawntime="240" />
+		<monster name="amazon" x="1" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1006" centery="1014" centerz="6" radius="1">
+		<monster name="bandit" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="943" centery="1017" centerz="6" radius="1">
+		<monster name="bandit" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1177" centery="1021" centerz="6" radius="1">
+		<monster name="tarantula" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="950" centery="1022" centerz="6" radius="1">
+		<monster name="demon" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1177" centery="1024" centerz="6" radius="1">
+		<monster name="tarantula" x="1" y="0" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="946" centery="1025" centerz="6" radius="1">
+		<monster name="minotaur guard" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="942" centery="1029" centerz="6" radius="1">
+		<monster name="minotaur archer" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="946" centery="1029" centerz="6" radius="1">
+		<monster name="minotaur archer" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1123" centery="1032" centerz="6" radius="5" />
+	<spawn centerx="1206" centery="1039" centerz="6" radius="1">
+		<monster name="amazon" x="-1" y="-1" z="6" spawntime="240" />
+		<monster name="valkyrie" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1196" centery="1040" centerz="6" radius="1">
+		<monster name="amazon" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1127" centery="1042" centerz="6" radius="1">
+		<npc name="Arito" x="0" y="-1" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1206" centery="1042" centerz="6" radius="1">
+		<monster name="wild warrior" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1196" centery="1043" centerz="6" radius="1">
+		<monster name="amazon" x="0" y="0" z="6" spawntime="240" />
+		<monster name="amazon" x="1" y="1" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="923" centery="1048" centerz="6" radius="1">
+		<monster name="beholder" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="907" centery="1049" centerz="6" radius="1">
+		<monster name="cyclops" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="915" centery="1054" centerz="6" radius="1">
+		<monster name="beholder" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="904" centery="1059" centerz="6" radius="1">
+		<monster name="elder beholder" x="0" y="0" z="6" spawntime="240" />
+	</spawn>
+	<spawn centerx="1113" centery="1123" centerz="6" radius="5">
+		<monster name="minotaur" x="0" y="-3" z="6" spawntime="120" />
+		<monster name="minotaur" x="3" y="-2" z="6" spawntime="120" />
+		<monster name="minotaur guard" x="-1" y="1" z="6" spawntime="120" />
+		<monster name="minotaur archer" x="0" y="1" z="6" spawntime="120" />
+		<monster name="minotaur mage" x="2" y="1" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1542" centery="1144" centerz="6" radius="5">
+		<monster name="minotaur" x="0" y="-3" z="6" spawntime="120" />
+		<monster name="minotaur" x="3" y="-2" z="6" spawntime="120" />
+		<monster name="minotaur guard" x="-1" y="1" z="6" spawntime="120" />
+		<monster name="minotaur archer" x="0" y="1" z="6" spawntime="120" />
+		<monster name="minotaur mage" x="2" y="1" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1527" centery="1189" centerz="6" radius="1">
+		<monster name="minotaur guard" x="-1" y="1" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1523" centery="1192" centerz="6" radius="1">
+		<monster name="minotaur guard" x="0" y="1" z="6" spawntime="120" />
+	</spawn>
+	<spawn centerx="1125" centery="936" centerz="7" radius="1">
+		<monster name="ghoul" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1130" centery="936" centerz="7" radius="1">
+		<monster name="ghoul" x="0" y="-1" z="7" spawntime="120" />
+		<monster name="skeleton" x="1" y="-1" z="7" spawntime="120" />
+		<monster name="ghoul" x="-1" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1145" centery="938" centerz="7" radius="1">
+		<monster name="elf arcanist" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1168" centery="940" centerz="7" radius="1">
+		<monster name="wolf" x="-1" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1125" centery="942" centerz="7" radius="1">
+		<monster name="skeleton" x="0" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1139" centery="942" centerz="7" radius="1">
+		<monster name="elf arcanist" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1145" centery="943" centerz="7" radius="1">
+		<monster name="elf arcanist" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1125" centery="944" centerz="7" radius="1">
+		<monster name="stalker" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1150" centery="947" centerz="7" radius="1">
+		<monster name="elf Scout" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1146" centery="948" centerz="7" radius="1">
+		<monster name="elf arcanist" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1166" centery="958" centerz="7" radius="1">
+		<monster name="minotaur mage" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1080" centery="959" centerz="7" radius="1">
+		<monster name="war wolf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1176" centery="959" centerz="7" radius="1">
+		<monster name="minotaur archer" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1064" centery="962" centerz="7" radius="15">
+		<monster name="skeleton" x="1" y="-12" z="7" spawntime="120" />
+		<monster name="skeleton" x="-7" y="-5" z="7" spawntime="120" />
+		<monster name="skeleton" x="3" y="-3" z="7" spawntime="120" />
+		<monster name="skeleton" x="-8" y="-1" z="7" spawntime="120" />
+		<monster name="skeleton" x="8" y="7" z="7" spawntime="120" />
+		<monster name="skeleton" x="-6" y="8" z="7" spawntime="120" />
+		<monster name="skeleton" x="3" y="14" z="7" spawntime="120" />
+		<monster name="skeleton" x="13" y="14" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1136" centery="965" centerz="7" radius="1">
+		<monster name="minotaur archer" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1149" centery="965" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1168" centery="965" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1158" centery="966" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1163" centery="966" centerz="7" radius="1" />
+	<spawn centerx="1166" centery="966" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1138" centery="967" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1143" centery="967" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1172" centery="967" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1174" centery="967" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1156" centery="968" centerz="7" radius="1">
+		<monster name="elf" x="-1" y="0" z="7" spawntime="240" />
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1170" centery="968" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1148" centery="970" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1147" centery="972" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1044" centery="973" centerz="7" radius="1">
+		<monster name="elephant" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1171" centery="973" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1176" centery="973" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1122" centery="974" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1132" centery="974" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1141" centery="974" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1139" centery="975" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1162" centery="975" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1178" centery="975" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1028" centery="976" centerz="7" radius="1">
+		<monster name="bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1148" centery="976" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1017" centery="978" centerz="7" radius="1">
+		<monster name="bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1114" centery="978" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1133" centery="978" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1180" centery="979" centerz="7" radius="1">
+		<monster name="minotaur archer" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1116" centery="980" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1119" centery="980" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1171" centery="980" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1114" centery="981" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1164" centery="981" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1175" centery="981" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1052" centery="982" centerz="7" radius="1">
+		<monster name="panda" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1062" centery="982" centerz="7" radius="1">
+		<monster name="vampire" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1160" centery="982" centerz="7" radius="1">
+		<monster name="elf" x="0" y="1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1016" centery="983" centerz="7" radius="1">
+		<monster name="black sheep" x="-1" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1148" centery="983" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1171" centery="983" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1116" centery="984" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1060" centery="986" centerz="7" radius="1">
+		<monster name="black sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1154" centery="986" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1160" centery="986" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1022" centery="987" centerz="7" radius="1">
+		<monster name="bat" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1118" centery="987" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1135" centery="987" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1175" centery="987" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1141" centery="989" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1118" centery="990" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1164" centery="990" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1170" centery="990" centerz="7" radius="1">
+		<monster name="elf" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1176" centery="990" centerz="7" radius="1">
+		<monster name="minotaur guard" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1120" centery="991" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1171" centery="992" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1034" centery="993" centerz="7" radius="5">
+		<monster name="wolf" x="-3" y="-5" z="7" spawntime="240" />
+		<monster name="wolf" x="-4" y="-1" z="7" spawntime="240" />
+		<monster name="wolf" x="-1" y="0" z="7" spawntime="240" />
+		<monster name="war wolf" x="5" y="5" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1114" centery="993" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="936" centery="994" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="943" centery="994" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1122" centery="994" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1125" centery="994" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1140" centery="995" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1165" centery="996" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1150" centery="997" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="994" centery="999" centerz="7" radius="5">
+		<monster name="pig" x="-1" y="-2" z="7" spawntime="120" />
+		<monster name="pig" x="-1" y="0" z="7" spawntime="9000" />
+		<monster name="sheep" x="5" y="2" z="7" spawntime="240" />
+		<monster name="sheep" x="4" y="5" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1175" centery="999" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1137" centery="1000" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1173" centery="1001" centerz="7" radius="1" />
+	<spawn centerx="1176" centery="1001" centerz="7" radius="1">
+		<monster name="poison spider" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1201" centery="1001" centerz="7" radius="1">
+		<monster name="orc" x="1" y="0" z="7" spawntime="120" />
+		<monster name="orc leader" x="1" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1161" centery="1002" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1181" centery="1002" centerz="7" radius="1">
+		<monster name="skeleton" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1196" centery="1002" centerz="7" radius="1">
+		<monster name="poison spider" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="936" centery="1003" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1017" centery="1003" centerz="7" radius="1">
+		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1171" centery="1003" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1154" centery="1004" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1222" centery="1004" centerz="7" radius="1">
+		<monster name="rabbit" x="0" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="945" centery="1005" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1197" centery="1005" centerz="7" radius="1">
+		<monster name="skeleton" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1017" centery="1006" centerz="7" radius="1">
+		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1144" centery="1006" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="998" centery="1007" centerz="7" radius="1">
+		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1011" centery="1008" centerz="7" radius="1">
+		<npc name="Guido" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1192" centery="1008" centerz="7" radius="1">
+		<monster name="centipede" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1207" centery="1008" centerz="7" radius="1">
+		<monster name="wolf" x="-1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1197" centery="1009" centerz="7" radius="1">
+		<monster name="poison spider" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="927" centery="1010" centerz="7" radius="5">
+		<monster name="polar bear" x="-2" y="4" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1201" centery="1011" centerz="7" radius="1">
+		<monster name="orc" x="0" y="-1" z="7" spawntime="120" />
+		<monster name="wolf" x="1" y="0" z="7" spawntime="120" />
+		<monster name="orc rider" x="1" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1018" centery="1012" centerz="7" radius="1">
+		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1043" centery="1012" centerz="7" radius="1">
+		<monster name="wild warrior" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1217" centery="1012" centerz="7" radius="1">
+		<monster name="deer" x="1" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="935" centery="1013" centerz="7" radius="5">
+		<monster name="winter wolf" x="-2" y="4" z="7" spawntime="31488" />
+		<monster name="winter wolf" x="-2" y="5" z="7" spawntime="31488" />
+		<monster name="winter wolf" x="-1" y="5" z="7" spawntime="31488" />
+	</spawn>
+	<spawn centerx="924" centery="1014" centerz="7" radius="1" />
+	<spawn centerx="955" centery="1014" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="998" centery="1015" centerz="7" radius="1">
+		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1224" centery="1016" centerz="7" radius="1">
+		<monster name="Blue Butterfly" x="1" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="930" centery="1021" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1018" centery="1021" centerz="7" radius="5">
+		<monster name="sheep" x="-1" y="-5" z="7" spawntime="240" />
+		<monster name="dog" x="-3" y="1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1179" centery="1021" centerz="7" radius="1">
+		<monster name="skeleton" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="921" centery="1023" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="987" centery="1023" centerz="7" radius="1">
+		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1008" centery="1023" centerz="7" radius="1">
+		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="962" centery="1024" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+		<monster name="polar bear" x="0" y="1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="994" centery="1024" centerz="7" radius="5">
+		<monster name="sheep" x="5" y="-5" z="7" spawntime="240" />
+		<monster name="sheep" x="0" y="-3" z="7" spawntime="240" />
+		<monster name="rat" x="5" y="-3" z="7" spawntime="240" />
+		<monster name="rabbit" x="-2" y="-1" z="7" spawntime="120" />
+		<monster name="rabbit" x="1" y="3" z="7" spawntime="120" />
+		<monster name="rabbit" x="-1" y="4" z="7" spawntime="600" />
+	</spawn>
+	<spawn centerx="988" centery="1025" centerz="7" radius="1">
+		<monster name="crab" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1175" centery="1026" centerz="7" radius="1">
+		<monster name="poison spider" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="928" centery="1027" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1162" centery="1028" centerz="7" radius="1">
+		<npc name="Daniel Steelsoul" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="955" centery="1029" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1015" centery="1029" centerz="7" radius="1">
+		<monster name="snake" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1123" centery="1032" centerz="7" radius="1">
+		<npc name="Jakahr" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1124" centery="1032" centerz="7" radius="1" />
+	<spawn centerx="1224" centery="1033" centerz="7" radius="1">
+		<monster name="amazon" x="1" y="0" z="7" spawntime="120" />
+		<monster name="amazon" x="0" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1008" centery="1034" centerz="7" radius="1">
+		<monster name="snake" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="896" centery="1035" centerz="7" radius="1">
+		<monster name="yeti" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="889" centery="1038" centerz="7" radius="1">
+		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1198" centery="1038" centerz="7" radius="1">
+		<monster name="amazon" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="905" centery="1039" centerz="7" radius="1">
+		<npc name="Scott" x="0" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1204" centery="1039" centerz="7" radius="5">
+		<monster name="bat" x="-2" y="-2" z="7" spawntime="120" />
+		<monster name="valkyrie" x="3" y="0" z="7" spawntime="240" />
+		<monster name="bat" x="2" y="4" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1195" centery="1040" centerz="7" radius="1">
+		<monster name="amazon" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="1124" centery="1042" centerz="7" radius="1">
+		<npc name="Feizuhl" x="0" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1188" centery="1048" centerz="7" radius="5">
+		<monster name="snake" x="-3" y="-2" z="7" spawntime="120" />
+		<monster name="snake" x="1" y="2" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1205" centery="1049" centerz="7" radius="1">
+		<monster name="valkyrie" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="904" centery="1052" centerz="7" radius="1">
+		<npc name="Vera" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1137" centery="1097" centerz="7" radius="1">
+		<monster name="deer" x="0" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1152" centery="1100" centerz="7" radius="1">
+		<monster name="goblin" x="0" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1155" centery="1106" centerz="7" radius="1">
+		<monster name="rabbit" x="0" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="987" centery="1118" centerz="7" radius="1" />
+	<spawn centerx="1140" centery="1118" centerz="7" radius="2">
+		<monster name="snake" x="0" y="-1" z="7" spawntime="120" />
+		<monster name="snake" x="1" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1566" centery="1118" centerz="7" radius="1" />
+	<spawn centerx="1154" centery="1120" centerz="7" radius="1">
+		<monster name="wolf" x="1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="981" centery="1121" centerz="7" radius="2" />
+	<spawn centerx="995" centery="1123" centerz="7" radius="1" />
+	<spawn centerx="1154" centery="1125" centerz="7" radius="1">
+		<monster name="wolf" x="-1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1144" centery="1126" centerz="7" radius="2">
+		<monster name="snake" x="1" y="-1" z="7" spawntime="120" />
+		<monster name="snake" x="0" y="2" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="987" centery="1132" centerz="7" radius="2" />
+	<spawn centerx="1146" centery="1133" centerz="7" radius="2">
+		<monster name="snake" x="1" y="-2" z="7" spawntime="120" />
+		<monster name="snake" x="-1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="997" centery="1134" centerz="7" radius="2" />
+	<spawn centerx="1113" centery="1134" centerz="7" radius="5">
+		<monster name="dragon" x="0" y="-2" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1149" centery="1139" centerz="7" radius="2">
+		<monster name="snake" x="0" y="-2" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1569" centery="1139" centerz="7" radius="2">
+		<monster name="snake" x="0" y="-1" z="7" spawntime="120" />
+		<monster name="snake" x="1" y="1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1573" centery="1147" centerz="7" radius="2">
+		<monster name="snake" x="1" y="-1" z="7" spawntime="120" />
+		<monster name="snake" x="0" y="2" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1575" centery="1154" centerz="7" radius="2">
+		<monster name="snake" x="1" y="-2" z="7" spawntime="120" />
+		<monster name="snake" x="-1" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1542" centery="1155" centerz="7" radius="5">
+		<monster name="dragon" x="0" y="-2" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1578" centery="1160" centerz="7" radius="2">
+		<monster name="snake" x="0" y="-2" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1101" centery="1162" centerz="7" radius="1">
+		<monster name="minotaur" x="1" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1092" centery="1168" centerz="7" radius="1">
+		<monster name="minotaur" x="0" y="0" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1530" centery="1183" centerz="7" radius="1">
+		<monster name="minotaur" x="1" y="-1" z="7" spawntime="120" />
+	</spawn>
+	<spawn centerx="1014" centery="960" centerz="8" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1019" centery="964" centerz="8" radius="1">
+		<monster name="dworc fleshhunter" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1006" centery="965" centerz="8" radius="1">
+		<monster name="swamp troll" x="0" y="0" z="8" spawntime="120" />
+	</spawn>
+	<spawn centerx="1011" centery="965" centerz="8" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1003" centery="966" centerz="8" radius="5">
+		<monster name="dworc fleshhunter" x="2" y="-4" z="8" spawntime="240" />
+		<monster name="dworc fleshhunter" x="-1" y="-2" z="8" spawntime="240" />
+		<monster name="dworc fleshhunter" x="2" y="3" z="8" spawntime="240" />
+		<monster name="dworc fleshhunter" x="1" y="4" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1024" centery="966" centerz="8" radius="1">
+		<monster name="dworc fleshhunter" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1062" centery="970" centerz="8" radius="1">
+		<monster name="rotworm" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1005" centery="974" centerz="8" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1052" centery="976" centerz="8" radius="1">
+		<monster name="rotworm" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1040" centery="980" centerz="8" radius="1">
+		<monster name="rotworm" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1008" centery="1006" centerz="8" radius="8">
+		<monster name="skeleton" x="-2" y="-7" z="8" spawntime="120" />
+		<monster name="skeleton" x="0" y="-5" z="8" spawntime="120" />
+		<monster name="skeleton" x="6" y="-1" z="8" spawntime="120" />
+		<monster name="skeleton" x="-2" y="0" z="8" spawntime="120" />
+		<monster name="skeleton" x="5" y="0" z="8" spawntime="120" />
+		<monster name="skeleton" x="5" y="1" z="8" spawntime="120" />
+		<monster name="skeleton" x="6" y="2" z="8" spawntime="120" />
+	</spawn>
+	<spawn centerx="1041" centery="1014" centerz="8" radius="1">
+		<monster name="dwarf" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1039" centery="1016" centerz="8" radius="1">
+		<monster name="dwarf" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1044" centery="1018" centerz="8" radius="1">
+		<monster name="smuggler" x="0" y="0" z="8" spawntime="240" />
+		<monster name="smuggler" x="1" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="951" centery="1027" centerz="8" radius="1">
+		<monster name="slime" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1102" centery="1036" centerz="8" radius="15">
+		<monster name="snake" x="1" y="-9" z="8" spawntime="120" />
+		<monster name="hyaena" x="9" y="-9" z="8" spawntime="120" />
+		<monster name="skeleton" x="-10" y="-8" z="8" spawntime="120" />
+		<monster name="skeleton" x="-8" y="-1" z="8" spawntime="120" />
+		<monster name="scorpion" x="-2" y="0" z="8" spawntime="120" />
+		<monster name="skeleton" x="11" y="1" z="8" spawntime="120" />
+		<monster name="poison spider" x="0" y="4" z="8" spawntime="120" />
+		<monster name="larva" x="5" y="4" z="8" spawntime="120" />
+		<monster name="larva" x="-8" y="5" z="8" spawntime="120" />
+		<monster name="cave rat" x="11" y="6" z="8" spawntime="120" />
+		<monster name="scarab" x="4" y="10" z="8" spawntime="120" />
+		<monster name="skeleton" x="-11" y="11" z="8" spawntime="120" />
+		<monster name="larva" x="-4" y="11" z="8" spawntime="120" />
+		<monster name="cobra" x="10" y="11" z="8" spawntime="120" />
+	</spawn>
+	<spawn centerx="1197" centery="1040" centerz="8" radius="5">
+		<monster name="slime" x="0" y="2" z="8" spawntime="120" />
+	</spawn>
+	<spawn centerx="896" centery="1042" centerz="8" radius="1">
+		<monster name="behemoth" x="0" y="0" z="8" spawntime="240" />
+	</spawn>
+	<spawn centerx="1197" centery="1043" centerz="8" radius="5" />
+	<spawn centerx="986" centery="959" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1015" centery="959" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1017" centery="961" centerz="9" radius="1">
+		<monster name="swamp troll" x="1" y="0" z="9" spawntime="120" />
+	</spawn>
+	<spawn centerx="986" centery="962" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="995" centery="962" centerz="9" radius="1">
+		<monster name="swamp troll" x="0" y="0" z="9" spawntime="120" />
+	</spawn>
+	<spawn centerx="1002" centery="963" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="1" y="-1" z="9" spawntime="240" />
+		<monster name="dworc fleshhunter" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="982" centery="964" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1009" centery="965" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1022" centery="965" centerz="9" radius="1">
+		<monster name="dworc voodoomaster" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="982" centery="966" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1012" centery="966" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1018" centery="967" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="0" y="0" z="9" spawntime="240" />
+		<monster name="dworc fleshhunter" x="0" y="1" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="981" centery="969" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1017" centery="969" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="0" z="9" spawntime="240" />
+		<monster name="dworc fleshhunter" x="1" y="1" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1004" centery="971" centerz="9" radius="5">
+		<monster name="dworc venomsniper" x="0" y="-1" z="9" spawntime="240" />
+		<monster name="dworc fleshhunter" x="2" y="-1" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1018" centery="971" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="0" y="0" z="9" spawntime="240" />
+		<monster name="dworc fleshhunter" x="0" y="1" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="987" centery="974" centerz="9" radius="1">
+		<monster name="dworc voodoomaster" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1018" centery="976" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1016" centery="979" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1018" centery="979" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1012" centery="980" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1018" centery="981" centerz="9" radius="1">
+		<monster name="dworc voodoomaster" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1013" centery="983" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1015" centery="987" centerz="9" radius="1">
+		<monster name="dworc voodoomaster" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1010" centery="988" centerz="9" radius="1">
+		<monster name="dworc venomsniper" x="1" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1011" centery="991" centerz="9" radius="1">
+		<monster name="dworc voodoomaster" x="0" y="0" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="1013" centery="991" centerz="9" radius="1">
+		<monster name="dworc fleshhunter" x="1" y="-1" z="9" spawntime="240" />
+		<monster name="swamp troll" x="0" y="0" z="9" spawntime="120" />
+	</spawn>
+	<spawn centerx="1007" centery="1006" centerz="9" radius="8">
+		<monster name="ghoul" x="-4" y="-4" z="9" spawntime="120" />
+		<monster name="skeleton" x="4" y="-4" z="9" spawntime="120" />
+		<monster name="ghoul" x="-4" y="-3" z="9" spawntime="120" />
+		<monster name="skeleton" x="0" y="-3" z="9" spawntime="120" />
+		<monster name="skeleton" x="4" y="-3" z="9" spawntime="120" />
+		<monster name="ghoul" x="-4" y="-2" z="9" spawntime="600" />
+		<monster name="skeleton" x="-2" y="0" z="9" spawntime="120" />
+		<monster name="skeleton" x="-2" y="3" z="9" spawntime="120" />
+		<monster name="skeleton" x="6" y="3" z="9" spawntime="120" />
+		<monster name="skeleton" x="-4" y="7" z="9" spawntime="120" />
+		<monster name="skeleton" x="1" y="8" z="9" spawntime="120" />
+	</spawn>
+	<spawn centerx="1102" centery="1037" centerz="9" radius="12">
+		<monster name="larva" x="-2" y="-10" z="9" spawntime="120" />
+		<monster name="skeleton" x="4" y="-10" z="9" spawntime="120" />
+		<monster name="scarab" x="9" y="-10" z="9" spawntime="120" />
+		<monster name="skeleton" x="-10" y="-9" z="9" spawntime="120" />
+		<monster name="skeleton" x="-8" y="-9" z="9" spawntime="120" />
+		<monster name="scarab" x="12" y="-9" z="9" spawntime="120" />
+		<monster name="mummy" x="-6" y="-8" z="9" spawntime="120" />
+		<monster name="skeleton" x="-9" y="-6" z="9" spawntime="120" />
+		<monster name="poison spider" x="10" y="-6" z="9" spawntime="120" />
+		<monster name="poison spider" x="11" y="-4" z="9" spawntime="120" />
+		<monster name="poison spider" x="9" y="-3" z="9" spawntime="120" />
+		<monster name="skeleton" x="-1" y="-2" z="9" spawntime="120" />
+		<monster name="scarab" x="-9" y="-1" z="9" spawntime="120" />
+		<monster name="skeleton" x="-5" y="-1" z="9" spawntime="120" />
+		<monster name="skeleton" x="12" y="0" z="9" spawntime="120" />
+		<monster name="skeleton" x="9" y="2" z="9" spawntime="120" />
+		<monster name="larva" x="12" y="2" z="9" spawntime="120" />
+		<monster name="poison spider" x="-10" y="3" z="9" spawntime="120" />
+		<monster name="larva" x="-10" y="4" z="9" spawntime="120" />
+		<monster name="poison spider" x="-8" y="4" z="9" spawntime="120" />
+		<monster name="larva" x="-4" y="4" z="9" spawntime="120" />
+		<monster name="poison spider" x="-2" y="4" z="9" spawntime="120" />
+		<monster name="ghoul" x="8" y="4" z="9" spawntime="120" />
+		<monster name="skeleton" x="10" y="4" z="9" spawntime="120" />
+		<monster name="scarab" x="-11" y="6" z="9" spawntime="120" />
+		<monster name="poison spider" x="-5" y="6" z="9" spawntime="120" />
+		<monster name="larva" x="-9" y="7" z="9" spawntime="120" />
+		<monster name="poison spider" x="-1" y="7" z="9" spawntime="120" />
+		<monster name="ghoul" x="3" y="8" z="9" spawntime="120" />
+		<monster name="poison spider" x="7" y="9" z="9" spawntime="120" />
+		<monster name="skeleton" x="11" y="9" z="9" spawntime="120" />
+		<monster name="skeleton" x="-7" y="10" z="9" spawntime="120" />
+		<monster name="cobra" x="-5" y="11" z="9" spawntime="120" />
+		<monster name="skeleton" x="8" y="11" z="9" spawntime="120" />
+		<monster name="poison spider" x="12" y="11" z="9" spawntime="120" />
+		<monster name="skeleton" x="-10" y="12" z="9" spawntime="120" />
+	</spawn>
+	<spawn centerx="1007" centery="1006" centerz="10" radius="8">
+		<monster name="ghoul" x="-3" y="-4" z="10" spawntime="120" />
+		<monster name="ghoul" x="5" y="-4" z="10" spawntime="120" />
+		<monster name="ghoul" x="3" y="-3" z="10" spawntime="120" />
+		<monster name="ghoul" x="-1" y="0" z="10" spawntime="120" />
+		<monster name="ghoul" x="0" y="4" z="10" spawntime="120" />
+		<monster name="ghoul" x="0" y="5" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1022" centery="1006" centerz="10" radius="8">
+		<monster name="stalker" x="3" y="-7" z="10" spawntime="120" />
+		<monster name="ghoul" x="-1" y="-6" z="10" spawntime="120" />
+		<monster name="ghoul" x="0" y="-5" z="10" spawntime="120" />
+		<monster name="ghoul" x="1" y="-5" z="10" spawntime="240" />
+		<monster name="stalker" x="-3" y="-4" z="10" spawntime="240" />
+		<monster name="ghoul" x="-1" y="-2" z="10" spawntime="240" />
+		<monster name="mummy" x="4" y="-2" z="10" spawntime="240" />
+		<monster name="ghost" x="6" y="-2" z="10" spawntime="240" />
+		<monster name="skeleton" x="3" y="1" z="10" spawntime="120" />
+		<monster name="mummy" x="-5" y="6" z="10" spawntime="240" />
+		<monster name="mummy" x="5" y="6" z="10" spawntime="240" />
+	</spawn>
+	<spawn centerx="1102" centery="1026" centerz="10" radius="5">
+		<monster name="crypt shambler" x="0" y="0" z="10" spawntime="120" />
+		<monster name="scarab" x="-1" y="4" z="10" spawntime="120" />
+		<monster name="mummy" x="-3" y="5" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1092" centery="1028" centerz="10" radius="5">
+		<monster name="scarab" x="0" y="0" z="10" spawntime="120" />
+		<monster name="mummy" x="0" y="3" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1101" centery="1030" centerz="10" radius="5">
+		<monster name="ghost" x="5" y="4" z="10" spawntime="120" />
+		<monster name="vampire" x="-4" y="5" z="10" spawntime="240" />
+	</spawn>
+	<spawn centerx="1112" centery="1031" centerz="10" radius="1">
+		<monster name="vampire" x="0" y="0" z="10" spawntime="240" />
+	</spawn>
+	<spawn centerx="1106" centery="1035" centerz="10" radius="5">
+		<monster name="vampire" x="-2" y="2" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1096" centery="1037" centerz="10" radius="5">
+		<monster name="scarab" x="0" y="0" z="10" spawntime="120" />
+		<monster name="vampire" x="-3" y="5" z="10" spawntime="240" />
+	</spawn>
+	<spawn centerx="1105" centery="1037" centerz="10" radius="5" />
+	<spawn centerx="1097" centery="1039" centerz="10" radius="5">
+		<monster name="mummy" x="0" y="5" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1092" centery="1042" centerz="10" radius="5">
+		<monster name="scarab" x="0" y="5" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1104" centery="1048" centerz="10" radius="5">
+		<monster name="ghost" x="0" y="0" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1230" centery="1074" centerz="10" radius="5">
+		<monster name="skeleton" x="-4" y="-1" z="10" spawntime="120" />
+		<monster name="skeleton" x="-2" y="-1" z="10" spawntime="120" />
+		<monster name="skeleton" x="2" y="0" z="10" spawntime="120" />
+		<monster name="skeleton" x="-1" y="2" z="10" spawntime="120" />
+	</spawn>
+	<spawn centerx="1007" centery="1006" centerz="11" radius="8">
+		<monster name="ghoul" x="-5" y="-7" z="11" spawntime="240" />
+		<monster name="ghoul" x="-4" y="-7" z="11" spawntime="240" />
+		<monster name="stalker" x="3" y="-7" z="11" spawntime="120" />
+		<monster name="ghoul" x="-6" y="-6" z="11" spawntime="240" />
+		<monster name="ghoul" x="-5" y="-6" z="11" spawntime="240" />
+		<monster name="ghoul" x="-1" y="-6" z="11" spawntime="120" />
+		<monster name="ghoul" x="-6" y="-5" z="11" spawntime="240" />
+		<monster name="ghoul" x="-5" y="-5" z="11" spawntime="240" />
+		<monster name="ghoul" x="0" y="-5" z="11" spawntime="120" />
+		<monster name="skeleton" x="1" y="-5" z="11" spawntime="120" />
+		<monster name="skeleton" x="-1" y="-2" z="11" spawntime="120" />
+		<monster name="skeleton" x="3" y="1" z="11" spawntime="120" />
+		<monster name="demon skeleton" x="-5" y="6" z="11" spawntime="120" />
+		<monster name="ghoul" x="5" y="6" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1022" centery="1006" centerz="11" radius="8">
+		<monster name="mummy" x="-4" y="-4" z="11" spawntime="240" />
+		<monster name="ghost" x="4" y="-4" z="11" spawntime="240" />
+		<monster name="mummy" x="0" y="-3" z="11" spawntime="240" />
+		<monster name="ghost" x="4" y="-3" z="11" spawntime="240" />
+		<monster name="ghost" x="-4" y="-2" z="11" spawntime="240" />
+		<monster name="skeleton" x="-2" y="0" z="11" spawntime="120" />
+		<monster name="bonebeast" x="2" y="0" z="11" spawntime="240" />
+		<monster name="lich" x="6" y="1" z="11" spawntime="240" />
+		<monster name="ghost" x="-2" y="3" z="11" spawntime="240" />
+		<monster name="skeleton" x="6" y="3" z="11" spawntime="120" />
+		<monster name="crypt shambler" x="5" y="4" z="11" spawntime="240" />
+		<monster name="crypt shambler" x="4" y="7" z="11" spawntime="240" />
+		<monster name="skeleton" x="1" y="8" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1098" centery="1027" centerz="11" radius="5">
+		<monster name="demon skeleton" x="0" y="0" z="11" spawntime="120" />
+		<monster name="demon skeleton" x="-2" y="4" z="11" spawntime="240" />
+		<monster name="demon skeleton" x="4" y="5" z="11" spawntime="240" />
+		<monster name="vampire" x="5" y="5" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1254" centery="1029" centerz="11" radius="7">
+		<monster name="beholder" x="-5" y="0" z="11" spawntime="120" />
+		<monster name="beholder" x="6" y="0" z="11" spawntime="120" />
+		<monster name="scorpion" x="0" y="1" z="11" spawntime="120" />
+		<monster name="black knight" x="0" y="5" z="11" spawntime="600" />
+	</spawn>
+	<spawn centerx="1096" centery="1031" centerz="11" radius="5">
+		<monster name="demon skeleton" x="5" y="2" z="11" spawntime="240" />
+		<monster name="demon skeleton" x="0" y="3" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1103" centery="1032" centerz="11" radius="5">
+		<monster name="demon skeleton" x="5" y="-1" z="11" spawntime="240" />
+		<monster name="vampire" x="1" y="0" z="11" spawntime="240" />
+	</spawn>
+	<spawn centerx="1101" centery="1033" centerz="11" radius="5">
+		<monster name="necromancer" x="-5" y="5" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1096" centery="1034" centerz="11" radius="5">
+		<monster name="ghost" x="-5" y="5" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1096" centery="1038" centerz="11" radius="5">
+		<monster name="vampire" x="0" y="2" z="11" spawntime="240" />
+		<monster name="demon skeleton" x="1" y="3" z="11" spawntime="240" />
+	</spawn>
+	<spawn centerx="1111" centery="1038" centerz="11" radius="5">
+		<monster name="demon skeleton" x="0" y="-1" z="11" spawntime="120" />
+		<monster name="vampire" x="-2" y="0" z="11" spawntime="240" />
+		<monster name="demon skeleton" x="2" y="0" z="11" spawntime="240" />
+		<monster name="demon skeleton" x="-2" y="5" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1105" centery="1039" centerz="11" radius="5">
+		<monster name="vampire" x="0" y="0" z="11" spawntime="120" />
+		<monster name="ghost" x="0" y="3" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1109" centery="1043" centerz="11" radius="5">
+		<monster name="demon skeleton" x="-1" y="2" z="11" spawntime="240" />
+		<monster name="vampire" x="3" y="4" z="11" spawntime="240" />
+	</spawn>
+	<spawn centerx="1113" centery="1045" centerz="11" radius="5">
+		<monster name="magicthrower" x="2" y="0" z="11" spawntime="120" />
+		<monster name="magicthrower" x="2" y="2" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1097" centery="1048" centerz="11" radius="5">
+		<monster name="vampire" x="0" y="0" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1257" centery="1060" centerz="11" radius="5">
+		<monster name="beholder" x="0" y="0" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1242" centery="1066" centerz="11" radius="5">
+		<monster name="beholder" x="0" y="0" z="11" spawntime="1001" />
+	</spawn>
+	<spawn centerx="1266" centery="1077" centerz="11" radius="5">
+		<monster name="beholder" x="0" y="0" z="11" spawntime="1000" />
+	</spawn>
+	<spawn centerx="1256" centery="1087" centerz="11" radius="5">
+		<monster name="beholder" x="0" y="0" z="11" spawntime="120" />
+	</spawn>
+	<spawn centerx="1007" centery="1006" centerz="12" radius="8">
+		<monster name="stalker" x="5" y="-7" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="-5" y="-6" z="12" spawntime="120" />
+		<monster name="stalker" x="3" y="-6" z="12" spawntime="120" />
+		<monster name="ghoul" x="0" y="-4" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="6" y="-3" z="12" spawntime="120" />
+		<monster name="ghoul" x="-5" y="-2" z="12" spawntime="120" />
+		<monster name="ghoul" x="2" y="1" z="12" spawntime="120" />
+		<monster name="ghoul" x="-5" y="3" z="12" spawntime="120" />
+		<monster name="ghoul" x="-4" y="3" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="5" y="5" z="12" spawntime="120" />
+		<monster name="ghoul" x="-1" y="6" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="6" y="6" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1022" centery="1006" centerz="12" radius="8">
+		<monster name="stalker" x="5" y="-7" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="-5" y="-6" z="12" spawntime="120" />
+		<monster name="stalker" x="3" y="-6" z="12" spawntime="120" />
+		<monster name="ghoul" x="0" y="-4" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="6" y="-3" z="12" spawntime="120" />
+		<monster name="ghoul" x="-5" y="-2" z="12" spawntime="120" />
+		<monster name="ghoul" x="2" y="1" z="12" spawntime="120" />
+		<monster name="ghoul" x="-5" y="3" z="12" spawntime="120" />
+		<monster name="ghoul" x="-4" y="3" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="5" y="5" z="12" spawntime="120" />
+		<monster name="ghoul" x="-1" y="6" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="4" y="6" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1088" centery="1011" centerz="12" radius="15">
+		<monster name="snake" x="1" y="-9" z="12" spawntime="120" />
+		<monster name="ancient scarab" x="7" y="-9" z="12" spawntime="240" />
+		<monster name="hyaena" x="9" y="-9" z="12" spawntime="120" />
+		<monster name="skeleton" x="-10" y="-8" z="12" spawntime="120" />
+		<monster name="ancient scarab" x="-6" y="-3" z="12" spawntime="240" />
+		<monster name="skeleton" x="-8" y="-1" z="12" spawntime="120" />
+		<monster name="scorpion" x="-2" y="0" z="12" spawntime="120" />
+		<monster name="skeleton" x="11" y="1" z="12" spawntime="120" />
+		<monster name="poison spider" x="0" y="4" z="12" spawntime="120" />
+		<monster name="larva" x="5" y="4" z="12" spawntime="120" />
+		<monster name="larva" x="-8" y="5" z="12" spawntime="120" />
+		<monster name="cave rat" x="11" y="6" z="12" spawntime="120" />
+		<monster name="ancient scarab" x="10" y="10" z="12" spawntime="240" />
+		<monster name="skeleton" x="-11" y="11" z="12" spawntime="120" />
+		<monster name="ancient scarab" x="-6" y="11" z="12" spawntime="240" />
+		<monster name="larva" x="-4" y="11" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1249" centery="1026" centerz="12" radius="5">
+		<monster name="beholder" x="0" y="0" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1260" centery="1026" centerz="12" radius="5">
+		<monster name="beholder" x="0" y="0" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1111" centery="1032" centerz="12" radius="5">
+		<monster name="necromancer" x="0" y="0" z="12" spawntime="120" />
+		<monster name="demon skeleton" x="3" y="5" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1080" centery="1037" centerz="12" radius="12">
+		<monster name="lich" x="-2" y="-9" z="12" spawntime="240" />
+		<monster name="lich" x="-9" y="-6" z="12" spawntime="240" />
+		<monster name="lich" x="5" y="-1" z="12" spawntime="240" />
+		<monster name="lich" x="-4" y="0" z="12" spawntime="240" />
+		<monster name="lich" x="8" y="10" z="12" spawntime="240" />
+		<monster name="lich" x="-2" y="12" z="12" spawntime="240" />
+	</spawn>
+	<spawn centerx="1114" centery="1037" centerz="12" radius="5">
+		<monster name="lich" x="2" y="1" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1116" centery="1038" centerz="12" radius="5">
+		<monster name="demon skeleton" x="-4" y="5" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1106" centery="1039" centerz="12" radius="30">
+		<monster name="demon skeleton" x="-5" y="-12" z="12" spawntime="120" />
+		<monster name="scarab" x="-8" y="-9" z="12" spawntime="240" />
+		<monster name="ancient scarab" x="-7" y="-8" z="12" spawntime="120" />
+		<monster name="lich" x="-1" y="-7" z="12" spawntime="240" />
+		<monster name="demon skeleton" x="-7" y="-5" z="12" spawntime="120" />
+		<monster name="scarab" x="-8" y="-1" z="12" spawntime="240" />
+		<monster name="necromancer" x="-7" y="-1" z="12" spawntime="120" />
+		<monster name="ghost" x="-12" y="0" z="12" spawntime="120" />
+		<monster name="vampire" x="2" y="0" z="12" spawntime="120" />
+		<monster name="ancient scarab" x="-6" y="2" z="12" spawntime="120" />
+		<monster name="ghost" x="2" y="3" z="12" spawntime="120" />
+		<monster name="magicthrower" x="12" y="6" z="12" spawntime="120" />
+		<monster name="magicthrower" x="12" y="8" z="12" spawntime="120" />
+		<monster name="vampire" x="-6" y="9" z="12" spawntime="120" />
+		<monster name="necromancer" x="8" y="9" z="12" spawntime="120" />
+		<monster name="ghost" x="3" y="13" z="12" spawntime="120" />
+		<monster name="scarab" x="6" y="13" z="12" spawntime="240" />
+		<monster name="vampire" x="1" y="16" z="12" spawntime="120" />
+		<monster name="scarab" x="5" y="21" z="12" spawntime="240" />
+		<monster name="scarab" x="6" y="22" z="12" spawntime="240" />
+		<monster name="mummy" x="-6" y="23" z="12" spawntime="120" />
+		<monster name="mummy" x="-4" y="23" z="12" spawntime="240" />
+		<monster name="scarab" x="-11" y="26" z="12" spawntime="120" />
+		<monster name="scarab" x="-7" y="27" z="12" spawntime="240" />
+		<monster name="scarab" x="-6" y="27" z="12" spawntime="240" />
+		<monster name="ghost" x="1" y="27" z="12" spawntime="120" />
+	</spawn>
+	<spawn centerx="1253" centery="1042" centerz="12" radius="5" />
+	<spawn centerx="1028" centery="1021" centerz="13" radius="7">
+		<monster name="banshee" x="-4" y="-5" z="13" spawntime="120" />
+		<monster name="banshee" x="4" y="-5" z="13" spawntime="120" />
+		<monster name="dragon lord" x="0" y="-3" z="13" spawntime="120" />
+		<monster name="giant spider" x="-4" y="1" z="13" spawntime="120" />
+		<monster name="giant spider" x="4" y="1" z="13" spawntime="120" />
+		<monster name="dragon lord" x="0" y="4" z="13" spawntime="120" />
+		<monster name="banshee" x="-4" y="5" z="13" spawntime="120" />
+		<monster name="banshee" x="4" y="5" z="13" spawntime="120" />
+	</spawn>
+</spawns>

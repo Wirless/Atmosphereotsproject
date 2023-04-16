@@ -1,0 +1,47 @@
+function onKill(cid, target)
+    local player = Player(cid)
+    local storageValue = player:getStorageValue(100kills)
+
+    -- If storageValue is nil, set it to 0
+    if storageValue == -1 then
+        player:setStorageValue(100kills, 0)
+        storageValue = 0
+    end
+
+    -- Increment the storage value by 1
+    player:setStorageValue(100kills, storageValue + 1)
+
+    -- If the player has killed 100 monsters, execute the code
+    if (storageValue + 1) % 100 == 0 then
+        -- Your code goes here
+        player:sendTextMessage(MESSAGE_INFO_DESCR, "Congratulations, you have killed 100 monsters!")
+    end
+
+    return true
+end
+
+
+
+function onKill(cid, target)
+    local player = Player(cid)
+    local storageValue = player:getStorageValue(100kills)
+
+    -- If storageValue is nil, set it to 0
+    if storageValue == -1 then
+        player:setStorageValue(100kills, 0)
+        storageValue = 0
+    end
+
+    -- Check if the target is a monster and increment the storage value by 1 if true
+    if isMonster(target) then
+        player:setStorageValue(100kills, storageValue + 1)
+    end
+
+    -- If the player has killed 100 monsters, execute the code
+    if (storageValue + 1) % 100 == 0 then
+        -- Your code goes here
+        player:sendTextMessage(MESSAGE_INFO_DESCR, "Congratulations, you have killed 100 monsters!")
+    end
+
+    return true
+end

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<announce delay="1000" type="warning" message="Your corpse will be mine!" />
+	<announce delay="2000" type="warning" message="Taste the sweetness of death!.." />
+	<areaspawn delay="2000" radius="0" centerx="1027" centery="999" centerz="11">
+		<monster name="necromancer" amount="1" />
+	</areaspawn>
+</raid>

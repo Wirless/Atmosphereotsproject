@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+	<!--
+		<raid name="Testraid" file="testraid.xml" interval2="30" margin="0" />
+		executed on average once every 30 minutes
+	-->
+	<raid name="rabbit" file="rabbit.xml" interval2="120" margin="0" />
+	<raid name="sheep" file="sheep.xml" interval2="120" margin="0" />
+	<raid name="chicken" file="chicken.xml" interval2="120" margin="0" />
+	<raid name="pigs" file="pigs.xml" interval2="120" margin="0" />
+	<raid name="rat" file="rat.xml" interval2="120" margin="0" />
+	<raid name="wolf" file="wolf.xml" interval2="120" margin="0" />
+	<raid name="rotworm" file="rotworm.xml" interval2="120" margin="0" />
+	<raid name="skeleton" file="skeleton.xml" interval2="120" margin="0" />
+	<raid name="demon skeleton" file="ds.xml" interval2="120" margin="0" />
+	<raid name="necromancer" file="necromancer.xml" interval2="120" margin="0" />
+	<raid name="vampiredouble" file="vd.xml" interval2="120" margin="0" />
+</raids>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Senja I" houseid="1" entryx="911" entryy="1054" entryz="7" rent="0" townid="5" size="27" />
+	<house name="Senja II" houseid="2" entryx="908" entryy="1055" entryz="7" rent="0" townid="5" size="47" />
+	<house name="Senja III" houseid="3" entryx="899" entryy="1050" entryz="7" rent="0" townid="5" size="49" />
+	<house name="Senja IV" houseid="4" entryx="917" entryy="1038" entryz="7" rent="0" townid="5" size="19" />
+	<house name="Senja V" houseid="5" entryx="918" entryy="1035" entryz="7" rent="0" townid="5" size="13" />
+	<house name="Senja VI" houseid="6" entryx="922" entryy="1043" entryz="7" rent="0" townid="5" size="31" />
+	<house name="Senja VII" houseid="7" entryx="927" entryy="1043" entryz="7" rent="0" townid="5" size="14" />
+	<house name="Senja VIII" houseid="8" entryx="930" entryy="1040" entryz="6" rent="0" townid="5" size="25" />
+	<house name="Senja IX" houseid="9" entryx="925" entryy="1034" entryz="6" rent="0" townid="5" size="13" />
+	<house name="Senja X" houseid="10" entryx="899" entryy="1039" entryz="6" rent="0" townid="5" size="11" />
+</houses>

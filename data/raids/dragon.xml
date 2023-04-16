@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<announce delay="1000" type="warning" message="RAIDTEXT..." />
+	<announce delay="25000" type="warning" message="RAIDTEXT..." />
+	<areaspawn delay="2000" radius="4" centerx="1072" centery="972" centerz="7">
+		<monster name="dragon" amount="1" />
+	</areaspawn>
+</raid>
