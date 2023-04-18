@@ -5,6 +5,29 @@
 #customraids
 #custommap?
 
+#Idle Tibia
+
+http://idletibia.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Nekiro's 7.72 Downgrade
