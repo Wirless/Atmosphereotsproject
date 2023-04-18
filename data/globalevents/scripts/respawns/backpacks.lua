@@ -21,7 +21,7 @@ Position(1042, 1009, 7), --gm house
 Position(946, 1016, 7), -- senja castle
 Position(998, 1149, 7), -- carlin
 Position(998, 1151, 7), -- carlin2
-Position(1040, 1017, 8), -- gmmdp
+
 
 }
 

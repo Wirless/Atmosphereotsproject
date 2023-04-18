@@ -4,14 +4,14 @@
 	<rune name="adevo grav pox" id="2285" allowfaruse="1" maglv="0" blocktype="solid" charges="3" script="runes/poison_field_rune.lua"/>
 	<rune name="adura gran" id="2265"  allowfaruse="1" maglv="1" needtarget="1" aggressive="0" charges="1" script="runes/intense_healing_rune.lua" />
 	<rune name="adana pox" id="2266" allowfaruse="1" needtarget="1" aggressive="0" charges="1" script="runes/antidote_rune.lua" />
-	<rune name="adori" id="2287" allowfaruse="1" needtarget="1" charges="5" script="runes/light_magic_missile_rune.lua" />
+	<rune name="adori" id="2287" allowfaruse="1" charges="5" script="runes/light_magic_missile_rune.lua" />
 	<rune name="adevo grav flam" id="2301" allowfaruse="1" maglv="1" blocktype="solid" charges="3" script="runes/fire_field_rune.lua" />
 	<rune name="adeta sio" id="2290" allowfaruse="1" maglv="5" needtarget="1" charges="1" script="runes/convince_creature_rune.lua" /> 
 	<rune name="adito grav" id="2261" allowfaruse="1" maglv="3" range="4" blocktype="solid" aggressive="0" charges="3" script="runes/destroy_field_rune.lua" />
 	<rune name="adevo grav vis" id="2277" allowfaruse="1" maglv="3" blocktype="solid" charges="3" script="runes/energy_field_rune.lua" />
 	<rune name="adito tera" id="2310" allowfaruse="1" maglv="4" charges="3" range="1" script="runes/desintegrate_rune.lua" />
 	<rune name="adura vita" id="2273" allowfaruse="1" maglv="4" needtarget="1" aggressive="0" charges="1" script="runes/ultimate_healing_rune.lua" />
-	<rune name="adori gran" id="2311" allowfaruse="1" maglv="3" needtarget="1" charges="5" script="runes/heavy_magic_missile_rune.lua"/>
+	<rune name="adori gran" id="2311" allowfaruse="1" maglv="3" charges="5" script="runes/heavy_magic_missile_rune.lua"/>
 	<rune name="adevo mas pox" id="2286" allowfaruse="1" maglv="4" blocktype="solid" charges="2" script="runes/poison_bomb_rune.lua" />
 	<rune name="adevo mas flam" id="2305" allowfaruse="1" maglv="5" blocktype="solid" charges="2" script="runes/fire_bomb_rune.lua" />
 	<rune name="adevo res flam" id="2308" allowfaruse="1" maglv="7" needtarget="1" charges="2" script="runes/soulfire_rune.lua" />
@@ -25,7 +25,7 @@
 	<rune name="adevo mas grav flam" id="2303" allowfaruse="1" maglv="6" blocktype="solid" charges="4" script="runes/fire_wall_rune.lua" />
 	<rune name="adevo mas vis" id="2262" allowfaruse="1" maglv="10" blocktype="solid" charges="2" script="runes/energy_bomb_rune.lua" />
 	<rune name="adevo mas grav vis" id="2279" allowfaruse="1" maglv="9" blocktype="solid" charges="4" script="runes/energy_wall_rune.lua" />
-	<rune name="adori vita vis" id="2268" allowfaruse="1" maglv="15" needtarget="1" charges="1" script="runes/sudden_death_rune.lua" />
+	<rune name="adori vita vis" id="2268" allowfaruse="1" maglv="15" charges="1" script="runes/sudden_death_rune.lua" />
 	<rune name="adevo res pox" id="2292" allowfaruse="1" maglv="4" needtarget="1" charges="3" script="runes/envenom_rune.lua" />
 	<rune name="adana ani" id="2278" allowfaruse="1" maglv="18" needtarget="1" mana="1400" charges="1" script="runes/paralyze_rune.lua">
 		<vocation name="Druid"/>
@@ -47,7 +47,7 @@
 		<vocation name="Royal Paladin"/>
 	</instant>
 	<instant name="Levitate" words="exani hur" needlearn="0" lvl="12" prem="0" mana="50" params="1" script="support/levitate.lua"/>
-	<instant name="Energy Strike" words="exori vis" lvl="11" mana="20" direction="1" exhaustion="1000" script="attack/energy_strike.lua"> <!-- broken -->
+	<instant name="Energy Strike" words="exori vis" lvl="11" mana="20" needtarget="1" exhaustion="1000" script="attack/energy_strike.lua"> <!-- broken -->
 		<vocation name="Sorcerer"/> 
 		<vocation name="Master Sorcerer"/>
 		<vocation name="Druid"/>	
@@ -69,13 +69,13 @@
 		<vocation name="Royal Paladin"/>
 	</instant>
 	<instant name="Haste" words="utani hur" needlearn="0" lvl="14" prem="0" mana="60" selftarget="1" aggressive="0" script="support/haste.lua" />
-	<instant name="Flame Strike" words="exori flam" lvl="12" prem="0" mana="20" direction="1" exhaustion="1000" script="attack/flame_strike.lua">
+	<instant name="Flame Strike" words="exori flam" lvl="12" prem="0" mana="20" needtarget="1" exhaustion="1000" script="attack/flame_strike.lua">
 		<vocation name="Sorcerer"/> 
 		<vocation name="Master Sorcerer"/>
 		<vocation name="Druid"/>	
 		<vocation name="Elder Druid"/>
 	</instant>
-	<instant name="Force Strike" words="exori mort" needlearn="0" lvl="11" prem="0" mana="20" direction="1" exhaustion="1000" script="attack/force_strike.lua">
+	<instant name="Force Strike" words="exori mort" needlearn="0" lvl="11" prem="0" mana="20" needtarget="1" aggressive="1" exhaustion="1000" script="attack/force_strike.lua">
 		<vocation name="Sorcerer"/> 
 		<vocation name="Master Sorcerer"/>
 		<vocation name="Druid"/>	

@@ -7,7 +7,7 @@
 	<raid name="rabbit" file="rabbit.xml" interval2="120" margin="0" />
 	<raid name="sheep" file="sheep.xml" interval2="120" margin="0" />
 	<raid name="chicken" file="chicken.xml" interval2="120" margin="0" />
-	<raid name="pigs" file="pigs.xml" interval2="120" margin="0" />
+	<raid name="pig" file="pigs.xml" interval2="120" margin="0" />
 	<raid name="rat" file="rat.xml" interval2="120" margin="0" />
 	<raid name="wolf" file="wolf.xml" interval2="120" margin="0" />
 	<raid name="rotworm" file="rotworm.xml" interval2="120" margin="0" />

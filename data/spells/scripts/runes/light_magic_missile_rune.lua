@@ -12,5 +12,14 @@ end
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 function onCastSpell(creature, variant, isHotkey)
-	return combat:execute(creature, variant)
+    local position = variant:getPosition()
+    local tile = Tile(position)
+    if tile:getTopCreature() then
+        return combat:execute(creature, variant)
+    end
+         
+    creature:sendCancelMessage(RETURNVALUE_CANONLYUSETHISRUNEONCREATURES)
+    creature:getPosition():sendMagicEffect(CONST_ME_POFF)
+    return false
 end
+

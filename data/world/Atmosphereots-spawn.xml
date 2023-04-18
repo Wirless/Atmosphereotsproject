@@ -1058,9 +1058,6 @@
 	<spawn centerx="921" centery="1023" centerz="7" radius="1">
 		<monster name="polar bear" x="0" y="0" z="7" spawntime="240" />
 	</spawn>
-	<spawn centerx="987" centery="1023" centerz="7" radius="1">
-		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
-	</spawn>
 	<spawn centerx="1008" centery="1023" centerz="7" radius="1">
 		<monster name="sheep" x="0" y="0" z="7" spawntime="240" />
 	</spawn>
@@ -1072,12 +1069,10 @@
 		<monster name="sheep" x="5" y="-5" z="7" spawntime="240" />
 		<monster name="sheep" x="0" y="-3" z="7" spawntime="240" />
 		<monster name="rat" x="5" y="-3" z="7" spawntime="240" />
-		<monster name="rabbit" x="-2" y="-1" z="7" spawntime="120" />
+		<monster name="rabbit" x="2" y="-1" z="7" spawntime="600" />
+		<monster name="sheep" x="-4" y="0" z="7" spawntime="240" />
+		<monster name="crab" x="-4" y="1" z="7" spawntime="240" />
 		<monster name="rabbit" x="1" y="3" z="7" spawntime="120" />
-		<monster name="rabbit" x="-1" y="4" z="7" spawntime="600" />
-	</spawn>
-	<spawn centerx="988" centery="1025" centerz="7" radius="1">
-		<monster name="crab" x="0" y="0" z="7" spawntime="240" />
 	</spawn>
 	<spawn centerx="1175" centery="1026" centerz="7" radius="1">
 		<monster name="poison spider" x="1" y="0" z="7" spawntime="120" />
@@ -1295,16 +1290,13 @@
 		<monster name="skeleton" x="5" y="1" z="8" spawntime="120" />
 		<monster name="skeleton" x="6" y="2" z="8" spawntime="120" />
 	</spawn>
-	<spawn centerx="1041" centery="1014" centerz="8" radius="1">
-		<monster name="dwarf" x="0" y="0" z="8" spawntime="240" />
-	</spawn>
-	<spawn centerx="1039" centery="1016" centerz="8" radius="1">
-		<monster name="dwarf" x="0" y="0" z="8" spawntime="240" />
-	</spawn>
-	<spawn centerx="1044" centery="1018" centerz="8" radius="1">
-		<monster name="smuggler" x="0" y="0" z="8" spawntime="240" />
-		<monster name="smuggler" x="1" y="0" z="8" spawntime="240" />
-	</spawn>
+	<spawn centerx="1041" centery="1014" centerz="8" radius="1" />
+	<spawn centerx="1039" centery="1016" centerz="8" radius="1" />
+	<spawn centerx="1036" centery="1018" centerz="8" radius="1" />
+	<spawn centerx="1038" centery="1018" centerz="8" radius="1" />
+	<spawn centerx="1040" centery="1018" centerz="8" radius="1" />
+	<spawn centerx="1042" centery="1018" centerz="8" radius="1" />
+	<spawn centerx="1044" centery="1018" centerz="8" radius="1" />
 	<spawn centerx="951" centery="1027" centerz="8" radius="1">
 		<monster name="slime" x="0" y="0" z="8" spawntime="240" />
 	</spawn>
@@ -1563,7 +1555,7 @@
 		<monster name="ghoul" x="-4" y="-2" z="9" spawntime="600" />
 		<monster name="skeleton" x="-2" y="0" z="9" spawntime="120" />
 		<monster name="skeleton" x="-2" y="3" z="9" spawntime="120" />
-		<monster name="skeleton" x="6" y="3" z="9" spawntime="120" />
+		<monster name="skeleton" x="5" y="4" z="9" spawntime="120" />
 		<monster name="skeleton" x="-4" y="7" z="9" spawntime="120" />
 		<monster name="skeleton" x="1" y="8" z="9" spawntime="120" />
 	</spawn>
@@ -1796,13 +1788,27 @@
 		<monster name="hyaena" x="9" y="-9" z="12" spawntime="120" />
 		<monster name="skeleton" x="-10" y="-8" z="12" spawntime="120" />
 		<monster name="ancient scarab" x="-6" y="-3" z="12" spawntime="240" />
-		<monster name="skeleton" x="-8" y="-1" z="12" spawntime="120" />
+		<monster name="ancient scarab" x="-10" y="-2" z="12" spawntime="240" />
+		<monster name="necromancer" x="-6" y="-2" z="12" spawntime="240" />
+		<monster name="banshee" x="-2" y="-2" z="12" spawntime="240" />
+		<monster name="necromancer" x="-8" y="-1" z="12" spawntime="240" />
+		<monster name="necromancer" x="-7" y="0" z="12" spawntime="240" />
+		<monster name="ancient scarab" x="-5" y="0" z="12" spawntime="240" />
 		<monster name="scorpion" x="-2" y="0" z="12" spawntime="120" />
 		<monster name="skeleton" x="11" y="1" z="12" spawntime="120" />
 		<monster name="poison spider" x="0" y="4" z="12" spawntime="120" />
 		<monster name="larva" x="5" y="4" z="12" spawntime="120" />
 		<monster name="larva" x="-8" y="5" z="12" spawntime="120" />
+		<monster name="scorpion" x="7" y="5" z="12" spawntime="240" />
+		<monster name="bonebeast" x="-10" y="6" z="12" spawntime="240" />
+		<monster name="bonebeast" x="-8" y="6" z="12" spawntime="240" />
+		<monster name="bonebeast" x="-7" y="6" z="12" spawntime="240" />
+		<monster name="scorpion" x="1" y="6" z="12" spawntime="240" />
 		<monster name="cave rat" x="11" y="6" z="12" spawntime="120" />
+		<monster name="banshee" x="-10" y="7" z="12" spawntime="240" />
+		<monster name="banshee" x="-8" y="7" z="12" spawntime="240" />
+		<monster name="scorpion" x="-6" y="7" z="12" spawntime="240" />
+		<monster name="scorpion" x="6" y="10" z="12" spawntime="240" />
 		<monster name="ancient scarab" x="10" y="10" z="12" spawntime="240" />
 		<monster name="skeleton" x="-11" y="11" z="12" spawntime="120" />
 		<monster name="ancient scarab" x="-6" y="11" z="12" spawntime="240" />
@@ -1820,14 +1826,23 @@
 	</spawn>
 	<spawn centerx="1080" centery="1037" centerz="12" radius="12">
 		<monster name="lich" x="-2" y="-9" z="12" spawntime="240" />
+		<monster name="scorpion" x="10" y="-9" z="12" spawntime="240" />
+		<monster name="scorpion" x="-11" y="-8" z="12" spawntime="240" />
 		<monster name="lich" x="-9" y="-6" z="12" spawntime="240" />
+		<monster name="scorpion" x="-10" y="-1" z="12" spawntime="240" />
 		<monster name="lich" x="5" y="-1" z="12" spawntime="240" />
 		<monster name="lich" x="-4" y="0" z="12" spawntime="240" />
+		<monster name="scorpion" x="12" y="2" z="12" spawntime="240" />
+		<monster name="scorpion" x="-4" y="3" z="12" spawntime="240" />
+		<monster name="scorpion" x="-5" y="10" z="12" spawntime="240" />
+		<monster name="scorpion" x="7" y="10" z="12" spawntime="240" />
 		<monster name="lich" x="8" y="10" z="12" spawntime="240" />
 		<monster name="lich" x="-2" y="12" z="12" spawntime="240" />
 	</spawn>
 	<spawn centerx="1114" centery="1037" centerz="12" radius="5">
+		<monster name="scorpion" x="-1" y="1" z="12" spawntime="240" />
 		<monster name="lich" x="2" y="1" z="12" spawntime="120" />
+		<monster name="scorpion" x="-5" y="2" z="12" spawntime="240" />
 	</spawn>
 	<spawn centerx="1116" centery="1038" centerz="12" radius="5">
 		<monster name="demon skeleton" x="-4" y="5" z="12" spawntime="120" />
@@ -1838,27 +1853,38 @@
 		<monster name="ancient scarab" x="-7" y="-8" z="12" spawntime="120" />
 		<monster name="lich" x="-1" y="-7" z="12" spawntime="240" />
 		<monster name="demon skeleton" x="-7" y="-5" z="12" spawntime="120" />
+		<monster name="scorpion" x="-12" y="-2" z="12" spawntime="240" />
 		<monster name="scarab" x="-8" y="-1" z="12" spawntime="240" />
 		<monster name="necromancer" x="-7" y="-1" z="12" spawntime="120" />
 		<monster name="ghost" x="-12" y="0" z="12" spawntime="120" />
+		<monster name="scorpion" x="-1" y="0" z="12" spawntime="240" />
 		<monster name="vampire" x="2" y="0" z="12" spawntime="120" />
 		<monster name="ancient scarab" x="-6" y="2" z="12" spawntime="120" />
 		<monster name="ghost" x="2" y="3" z="12" spawntime="120" />
+		<monster name="scorpion" x="-5" y="4" z="12" spawntime="240" />
 		<monster name="magicthrower" x="12" y="6" z="12" spawntime="120" />
+		<monster name="scorpion" x="6" y="7" z="12" spawntime="240" />
 		<monster name="magicthrower" x="12" y="8" z="12" spawntime="120" />
 		<monster name="vampire" x="-6" y="9" z="12" spawntime="120" />
 		<monster name="necromancer" x="8" y="9" z="12" spawntime="120" />
+		<monster name="scorpion" x="-10" y="11" z="12" spawntime="240" />
 		<monster name="ghost" x="3" y="13" z="12" spawntime="120" />
 		<monster name="scarab" x="6" y="13" z="12" spawntime="240" />
+		<monster name="scorpion" x="9" y="14" z="12" spawntime="240" />
 		<monster name="vampire" x="1" y="16" z="12" spawntime="120" />
+		<monster name="scorpion" x="1" y="18" z="12" spawntime="240" />
 		<monster name="scarab" x="5" y="21" z="12" spawntime="240" />
+		<monster name="scorpion" x="-12" y="22" z="12" spawntime="240" />
 		<monster name="scarab" x="6" y="22" z="12" spawntime="240" />
 		<monster name="mummy" x="-6" y="23" z="12" spawntime="120" />
 		<monster name="mummy" x="-4" y="23" z="12" spawntime="240" />
 		<monster name="scarab" x="-11" y="26" z="12" spawntime="120" />
+		<monster name="scorpion" x="2" y="26" z="12" spawntime="240" />
+		<monster name="scorpion" x="3" y="26" z="12" spawntime="240" />
 		<monster name="scarab" x="-7" y="27" z="12" spawntime="240" />
 		<monster name="scarab" x="-6" y="27" z="12" spawntime="240" />
 		<monster name="ghost" x="1" y="27" z="12" spawntime="120" />
+		<monster name="scorpion" x="-7" y="28" z="12" spawntime="240" />
 	</spawn>
 	<spawn centerx="1253" centery="1042" centerz="12" radius="5" />
 	<spawn centerx="1028" centery="1021" centerz="13" radius="7">
