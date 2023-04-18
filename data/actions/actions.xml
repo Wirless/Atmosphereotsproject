@@ -23,6 +23,14 @@
 		<action itemid="2552" script="tools/hoe.lua" />
 		<action itemid="2549" script="tools/rake.lua" />
 		
+		
+		<action uniqueid="36001" script="wardrobe/wardrobe.lua" />	
+	<action uniqueid="36002" script="wardrobe/wardrobe.lua" />	
+	<action uniqueid="36003" script="wardrobe/wardrobe.lua" />	
+	<action uniqueid="36004" script="wardrobe/wardrobe.lua" />	
+	
+	
+	
 	<action uniqueid="16000" script="usetp/desert.lua" />	
 	<action actionid="14611" script="usetp/tombe.lua" />
 	<action actionid="14612" script="usetp/tombeback.lua" />	

@@ -100,12 +100,15 @@ function getLootRandom()
 end
 
 table.contains = function(array, value)
-	for _, targetColumn in pairs(array) do
-		if targetColumn == value then
-			return true
-		end
-	end
-	return false
+    if array == nil then
+        return false
+    end
+    for _, targetColumn in pairs(array) do
+        if targetColumn == value then
+            return true
+        end
+    end
+    return false
 end
 
 string.split = function(str, sep)

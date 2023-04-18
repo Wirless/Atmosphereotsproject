@@ -1,8 +1,4 @@
-function sendDelayedEffects(player)
-	player:getPosition():sendMagicEffect(29)
-	addEvent(function() player:getPosition():sendMagicEffect(30) player:say("I LOVE TO SHOVEL I LOVE TO SHOVEL", TALKTYPE_SAY) end, 1000)
-	addEvent(function() player:getPosition():sendMagicEffect(28) player:say("I LOVE TO SHOVEL I LOVE TO SHOVEL", TALKTYPE_SAY) end, 2000)
-end
+
 
 
 
@@ -184,10 +180,12 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			player:addItem(2554, 1)
 			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Try digging the ground outside temple with this!")
-			sendDelayedEffects(player)
+			player:getPosition():sendMagicEffect(30)
+			player:say("I LOVE TO SHOVEL I LOVE TO SHOVEL", TALKTYPE_SAY)
 		else
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have already got the shovel now go dig the ground in front of temple!")
-		sendDelayedEffects(player)
+		player:getPosition():sendMagicEffect(30)
+		player:say("I LOVE TO SHOVEL I LOVE TO SHOVEL", TALKTYPE_SAY)
 		player:addItem(2554, 1)
 		end
 	
@@ -200,7 +198,8 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			player:addItem(2681, 4)
 			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found grapes!")
-			sendDelayedEffects(player)
+			player:getPosition():sendMagicEffect(30)
+			player:say("I LOVE TO SHOVEL I LOVE TO SHOVEL", TALKTYPE_SAY)
 		else
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty")
 
