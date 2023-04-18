@@ -35,6 +35,8 @@
 	<action actionid="2647" script="usetp/angelstatue.lua" />
 	<action actionid="2648" script="usetp/angelstatue.lua" />
 	<action actionid="2649" script="usetp/angelstatue.lua" />
+	<action actionid="2650" script="usetp/angelstatue.lua" />
+	<action actionid="2651" script="usetp/angelstatue.lua" />
 	<!-- Food -->
 	<action itemid="2362" script="other/food.lua" />
 	<action fromid="2666" toid="2691" script="other/food.lua" />

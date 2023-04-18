@@ -41,6 +41,9 @@
 	<talkaction words="/createkey" separator=" " script="createkey.lua" />
 	<talkaction words="/storage" separator=" " script="storage.lua" />
 	<talkaction words="/randomoutfit" separator=" " script="randomoutfit.lua" />
+	<talkaction words="/wars" separator=" " script="exiva.lua" />
+	<talkaction words="/find" event="script" value="exiva.lua"/>
+
 	
 	<!-- player talkactions -->
 	<talkaction words="!buypremium" script="buyprem.lua" />

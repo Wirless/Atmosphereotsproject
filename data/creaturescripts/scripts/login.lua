@@ -31,6 +31,13 @@ function onLogin(player)
 	end
 	player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 
+
+	if player:getStorageValue(556561) < 0 then
+		player:setStorageValue(556561,1)
+	end
+
+
+
 	-- Promotion
 	local vocation = player:getVocation()
 	local promotion = vocation:getPromotion()
@@ -47,6 +54,7 @@ function onLogin(player)
 	player:registerEvent("PlayerDeath")
 	player:registerEvent("DropLoot")
 	player:registerEvent("BroadcastKill")
+	player:registerEvent("levelmultiplier")
 
 	return true
 end

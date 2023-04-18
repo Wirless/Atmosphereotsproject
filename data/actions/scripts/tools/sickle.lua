@@ -6,7 +6,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
     local exp = math.random(1, 150)
     player:addExperience(exp, true)
     --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience cutting orchids.")
-    
+    target:getPosition():sendMagicEffect(13)
     -- 1% chance to get a colored rose
     local chance = math.random(1, 100)
     if chance <= 1 then

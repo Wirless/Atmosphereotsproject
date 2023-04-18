@@ -9,7 +9,15 @@ function onThink(interval, lastExecution)
             if storageValue > 1 then
                 expToAdd = storageValue
             end
-
+			
+			
+			local levelxamount = player:getStorageValue(556561)
+			--expToAdd = player:getStorageValue(556561)
+			--if levelxamount > 1 then
+			--	exptoAdd = levelxamount
+			--end
+			--end
+			
              if player:getStorageValue(156001) == 1 then
                 player:addExperience(expToAdd)
             else
