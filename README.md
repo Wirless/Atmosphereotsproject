@@ -1,3 +1,12 @@
+#fluidsfixed
+#fragsfixed
+#customactions
+#custommovements
+#customraids
+#custommap?
+
+
+
 # Nekiro's 7.72 Downgrade
 
 This downgrade is not download and run distribution, monsters and spells are probably not 100% correct.
