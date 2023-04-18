@@ -7,6 +7,7 @@ local POSITIONS = {
     Position(1109, 1051, 7), -- tombb
 	Position(906, 1039, 7), -- senja
 	Position(1008, 1000, 7), -- temple124
+	Position(1057, 856, 6), -- banshee
 
 }
 local MAGIC_EFFECT = CONST_ME_MAGIC_BLUE 

@@ -20,12 +20,19 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	elseif item.actionid == 2649 then -- check if item action ID matches
         player:teleportTo(temple1)
         return true
-	elseif item.actionid == 2651 then
-		player:teleportTo(temple1)
-		return true
 	elseif item.actionid == 2650 then -- check if item action ID matches
         player:teleportTo(Position(1332, 855 ,7))
         return true
+		elseif item.actionid == 2651 then
+		player:teleportTo(temple1)
+		return true
+	elseif item.actionid == 2652 then
+		player:teleportTo(Position(1047,802,7))
+		return true
+	elseif item.actionid == 2653 then
+		player:teleportTo(temple1)
+		return true
+		
     end
     return false
 end

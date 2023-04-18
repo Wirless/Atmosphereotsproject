@@ -68,6 +68,20 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have already completed this quest.")
 		end
 	
+	elseif uniqueId == 19100 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 19100 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			player:addItem(2512, 1)
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a wooden shield!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have already completed this quest.")
+		end
+	
+	
 	elseif uniqueId == 8141 then -- Check for unique ID 9905 (black knight quest)
         local storageValue = 8141 -- Change this to the storage value required for the quest
 

@@ -55,6 +55,7 @@ function onLogin(player)
 	player:registerEvent("DropLoot")
 	player:registerEvent("BroadcastKill")
 	player:registerEvent("levelmultiplier")
+	player:registerEvent("levelup")
 
 	return true
 end

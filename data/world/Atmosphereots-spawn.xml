@@ -76,9 +76,6 @@
 	<spawn centerx="1114" centery="1121" centerz="2" radius="3">
 		<npc name="Riddler" x="-1" y="0" z="2" spawntime="120" />
 	</spawn>
-	<spawn centerx="1543" centery="1142" centerz="2" radius="3">
-		<npc name="Riddler" x="-1" y="0" z="2" spawntime="120" />
-	</spawn>
 	<spawn centerx="1211" centery="967" centerz="3" radius="1">
 		<monster name="monk" x="0" y="0" z="3" spawntime="240" />
 		<monster name="monk" x="1" y="0" z="3" spawntime="240" />
@@ -217,12 +214,6 @@
 		<monster name="minotaur archer" x="-3" y="2" z="3" spawntime="120" />
 		<monster name="minotaur archer" x="0" y="2" z="3" spawntime="120" />
 	</spawn>
-	<spawn centerx="1544" centery="1144" centerz="3" radius="5">
-		<monster name="minotaur guard" x="1" y="0" z="3" spawntime="120" />
-		<monster name="minotaur mage" x="1" y="1" z="3" spawntime="120" />
-		<monster name="minotaur archer" x="-3" y="2" z="3" spawntime="120" />
-		<monster name="minotaur archer" x="0" y="2" z="3" spawntime="120" />
-	</spawn>
 	<spawn centerx="1738" centery="954" centerz="4" radius="1">
 		<monster name="flamingo" x="0" y="0" z="4" spawntime="240" />
 	</spawn>
@@ -323,13 +314,11 @@
 		<monster name="minotaur mage" x="1" y="0" z="4" spawntime="120" />
 		<monster name="minotaur guard" x="-2" y="1" z="4" spawntime="120" />
 	</spawn>
-	<spawn centerx="1543" centery="1144" centerz="4" radius="5">
-		<monster name="minotaur guard" x="-3" y="0" z="4" spawntime="120" />
-		<monster name="minotaur mage" x="1" y="0" z="4" spawntime="120" />
-		<monster name="minotaur guard" x="-2" y="1" z="4" spawntime="120" />
-	</spawn>
 	<spawn centerx="1098" centery="1167" centerz="4" radius="1">
 		<monster name="minotaur archer" x="-1" y="1" z="4" spawntime="120" />
+	</spawn>
+	<spawn centerx="1053" centery="859" centerz="5" radius="1">
+		<monster name="banshee" x="0" y="0" z="5" spawntime="240" />
 	</spawn>
 	<spawn centerx="1768" centery="942" centerz="5" radius="1">
 		<monster name="flamingo" x="0" y="0" z="5" spawntime="240" />
@@ -429,13 +418,6 @@
 		<monster name="minotaur guard" x="-1" y="0" z="5" spawntime="120" />
 		<monster name="minotaur guard" x="2" y="0" z="5" spawntime="120" />
 	</spawn>
-	<spawn centerx="1543" centery="1139" centerz="5" radius="3">
-		<monster name="ghoul" x="0" y="1" z="5" spawntime="120" />
-	</spawn>
-	<spawn centerx="1542" centery="1145" centerz="5" radius="5">
-		<monster name="minotaur guard" x="-1" y="0" z="5" spawntime="120" />
-		<monster name="minotaur guard" x="2" y="0" z="5" spawntime="120" />
-	</spawn>
 	<spawn centerx="1098" centery="1167" centerz="5" radius="1">
 		<monster name="minotaur guard" x="0" y="1" z="5" spawntime="120" />
 	</spawn>
@@ -484,9 +466,6 @@
 	</spawn>
 	<spawn centerx="1065" centery="982" centerz="6" radius="1">
 		<monster name="hero" x="-1" y="0" z="6" spawntime="240" />
-	</spawn>
-	<spawn centerx="1022" centery="985" centerz="6" radius="1">
-		<monster name="banshee" x="0" y="0" z="6" spawntime="240" />
 	</spawn>
 	<spawn centerx="1216" centery="985" centerz="6" radius="1" />
 	<spawn centerx="1733" centery="985" centerz="6" radius="1">
@@ -618,19 +597,6 @@
 		<monster name="minotaur guard" x="-1" y="1" z="6" spawntime="120" />
 		<monster name="minotaur archer" x="0" y="1" z="6" spawntime="120" />
 		<monster name="minotaur mage" x="2" y="1" z="6" spawntime="120" />
-	</spawn>
-	<spawn centerx="1542" centery="1144" centerz="6" radius="5">
-		<monster name="minotaur" x="0" y="-3" z="6" spawntime="120" />
-		<monster name="minotaur" x="3" y="-2" z="6" spawntime="120" />
-		<monster name="minotaur guard" x="-1" y="1" z="6" spawntime="120" />
-		<monster name="minotaur archer" x="0" y="1" z="6" spawntime="120" />
-		<monster name="minotaur mage" x="2" y="1" z="6" spawntime="120" />
-	</spawn>
-	<spawn centerx="1527" centery="1189" centerz="6" radius="1">
-		<monster name="minotaur guard" x="-1" y="1" z="6" spawntime="120" />
-	</spawn>
-	<spawn centerx="1523" centery="1192" centerz="6" radius="1">
-		<monster name="minotaur guard" x="0" y="1" z="6" spawntime="120" />
 	</spawn>
 	<spawn centerx="923" centery="892" centerz="7" radius="2">
 		<monster name="chicken" x="-2" y="-2" z="7" spawntime="180" />
@@ -1246,7 +1212,6 @@
 		<monster name="snake" x="0" y="-1" z="7" spawntime="120" />
 		<monster name="snake" x="1" y="1" z="7" spawntime="120" />
 	</spawn>
-	<spawn centerx="1566" centery="1118" centerz="7" radius="1" />
 	<spawn centerx="1154" centery="1120" centerz="7" radius="1">
 		<monster name="wolf" x="1" y="0" z="7" spawntime="120" />
 	</spawn>
@@ -1280,31 +1245,13 @@
 	<spawn centerx="1149" centery="1139" centerz="7" radius="2">
 		<monster name="snake" x="0" y="-2" z="7" spawntime="120" />
 	</spawn>
-	<spawn centerx="1569" centery="1139" centerz="7" radius="2">
-		<monster name="snake" x="0" y="-1" z="7" spawntime="120" />
-		<monster name="snake" x="1" y="1" z="7" spawntime="120" />
-	</spawn>
 	<spawn centerx="1016" centery="1144" centerz="7" radius="5">
 		<monster name="sheep" x="1" y="-2" z="7" spawntime="180" />
 		<monster name="sheep" x="-2" y="0" z="7" spawntime="180" />
 		<monster name="sheep" x="-1" y="2" z="7" spawntime="180" />
 	</spawn>
-	<spawn centerx="1573" centery="1147" centerz="7" radius="2">
-		<monster name="snake" x="1" y="-1" z="7" spawntime="120" />
-		<monster name="snake" x="0" y="2" z="7" spawntime="120" />
-	</spawn>
 	<spawn centerx="963" centery="1154" centerz="7" radius="1">
 		<npc name="Padreia" x="1" y="-1" z="7" spawntime="180" />
-	</spawn>
-	<spawn centerx="1575" centery="1154" centerz="7" radius="2">
-		<monster name="snake" x="1" y="-2" z="7" spawntime="120" />
-		<monster name="snake" x="-1" y="0" z="7" spawntime="120" />
-	</spawn>
-	<spawn centerx="1542" centery="1155" centerz="7" radius="5">
-		<monster name="dragon" x="0" y="-2" z="7" spawntime="120" />
-	</spawn>
-	<spawn centerx="1578" centery="1160" centerz="7" radius="2">
-		<monster name="snake" x="0" y="-2" z="7" spawntime="120" />
 	</spawn>
 	<spawn centerx="1101" centery="1162" centerz="7" radius="1">
 		<monster name="minotaur" x="1" y="-1" z="7" spawntime="120" />
@@ -1317,9 +1264,6 @@
 	</spawn>
 	<spawn centerx="1092" centery="1168" centerz="7" radius="1">
 		<monster name="minotaur" x="0" y="0" z="7" spawntime="120" />
-	</spawn>
-	<spawn centerx="1530" centery="1183" centerz="7" radius="1">
-		<monster name="minotaur" x="1" y="-1" z="7" spawntime="120" />
 	</spawn>
 	<spawn centerx="1016" centery="903" centerz="8" radius="1">
 		<monster name="cave rat" x="-1" y="1" z="8" spawntime="180" />

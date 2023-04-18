@@ -17,6 +17,7 @@
 	<movevent event="StepIn" uniqueid="55665" script="tiles/worm.lua" />
 	<movevent event="StepIn" uniqueid="55668" script="tiles/rose.lua" />
 	<movevent event="StepIn" uniqueid="55656" script="tiles/weddingringtile.lua" />
+	<movevent event="StepOut" uniqueid="55656" script="tiles/weddingringtile.lua" />
 	<movevent event="RemoveItem" itemid="2527" script="tiles/rosetake.lua" />
 	<movevent event="StepIn" uniqueid="6800" script="tiles/tomb.lua" />
 	<movevent event="StepIn" uniqueid="6801" script="tiles/tomb2.lua" />

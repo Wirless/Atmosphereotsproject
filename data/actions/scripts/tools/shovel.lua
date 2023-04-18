@@ -130,11 +130,65 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		
 		
 	elseif groundId >= 4526 and groundId <= 4541 then
+	
+	
+		if player:getLevel() >= 30 then
+			local mudspawn3 = math.random(1,100)
+				if mudspawn3 == 95 then
+				Game.createMonster("Orc Warrior", toPosition)
+				Game.createMonster("Orc Warrior", toPosition)
+			elseif mudspawn3 == 90 then
+				Game.createMonster("Cyclops", toPosition)
+			elseif mudspawn3 == 85 then
+				Game.createMonster("Cyclops", toPosition)
+			elseif mudspawn3 == 80 then
+				Game.createMonster("Cyclops", toPosition)
+			elseif mudspawn3 == 75 then
+				Game.createMonster("Minotaur", toPosition)
+				Game.createMonster("Minotaur", toPosition)
+				Game.createMonster("Minotaur", toPosition)
+				Game.createMonster("Minotaur", toPosition)
+				else
+			local amount = math.random(1, 3)
+				player:addItem(3976, amount)
+				player:addExperience(amount, true)
+				end
+		end
+		
+		if player:getLevel() >= 20 then
+			local mudspawn2 = math.random(1, 100)
+			if mudspawn2 == 95 then --5%
+				Game.createMonster("Orc Shaman", toPosition)
+			elseif mudspawn2 == 85 then
+				Game.createMonster("Elf", toPosition)
+			elseif mudspawn2 == 65 then
+				Game.createMonster("Orc", toPosition)
+			elseif mudspawn2 == 55 then
+				Game.createMonster("Minotaur", toPosition)
+			elseif mudspawn2 == 45 then
+				Game.createMonster("Orc Warrior", toPosition)
+				Game.createMonster("Orc", toPosition)
+			else
+				local amount = math.random(1, 3)
+				player:addItem(3976, amount)
+				player:addExperience(amount, true)
+			end
+		end
+		
 		local grasspawn = math.random(1, 100)
 		if grasspawn >= 95 then -- 5%
             Game.createMonster("Snake", toPosition)
-		elseif grasspawn > 85 and grasspawn < 95 then --10%
+		elseif grasspawn >= 85 then --10%
 			Game.createMonster("Spider", toPosition)
+		elseif grasspawn >= 75 then --10%
+			Game.createMonster("Spider", toPosition)
+			Game.createMonster("Spider", toPosition)
+		elseif grasspawn >= 65 then --10%
+			Game.createMonster("Orc", toPosition)
+		elseif grasspawn >= 55 then--10%
+			Game.createMonster("Rotworm", toPosition)
+		elseif grasspawn >= 45 then --10%
+			Game.createMonster("Minotaur", toPosition)
 		else
 			toPosition:sendMagicEffect(CONST_ME_POFF)
 		end
