@@ -10,8 +10,9 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if not table.contains(waterIds, target.itemid) then
 		return false
 	end
-	
-		local exp = math.random(1,40)
+		toPosition:sendMagicEffect(CONST_ME_WATERSPLASH)
+		toPosition:sendMagicEffect(2)
+		local exp = math.random(1,30)
         player:addExperience(exp, true)
         --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from fishing.")		
 

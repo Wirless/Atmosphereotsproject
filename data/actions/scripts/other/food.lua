@@ -97,6 +97,18 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if item.itemid == 2667 then
 		local exp = math.random(1, 20)
 		player:addExperience(exp, true)
+			return true
+		
+		--player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from eating.")
+	end
+	
+	
+	if item.itemid == 2682 then
+
+		local exp = math.random(1, 20)
+		player:addExperience(exp, true)
+			return true
+		
 		--player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from eating.")
 	end
 	

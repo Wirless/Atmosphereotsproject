@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<announce delay="1000" type="warning" message="east gate..." />
+	<announce delay="25000" type="warning" message="RAIDTEXT..." />
+	<areaspawn delay="2000" radius="4" centerx="1055" centery="1123" centerz="7">
+		<monster name="goblin" amount="20" />
+		<monster name="hunter" amount="1" />
+		<monster name="cyclops" amount="2" />
+		<monster name="wolf" amount="5" />
+		<monster name="bear" amount="5" />
+	</areaspawn>
+</raid>

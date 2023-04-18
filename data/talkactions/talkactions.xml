@@ -40,6 +40,7 @@
 	<talkaction words="/createkey" separator=" " script="createkey.lua" />
 	<talkaction words="/storage" separator=" " script="storage.lua" />
 	<talkaction words="/randomoutfit" separator=" " script="randomoutfit.lua" />
+	
 	<!-- player talkactions -->
 	<talkaction words="!buypremium" script="buyprem.lua" />
 	<talkaction words="!buyhouse" script="buyhouse.lua" />
@@ -51,7 +52,8 @@
 	<talkaction words="!kills" script="kills.lua" />
 	<talkaction words="!online;/online" script="online.lua" />
 	<talkaction words="!serverinfo" script="serverinfo.lua" />
-
+	<talkaction words="!lol" script="haha.lua" />
+	<talkaction words="!pog" script="pog.lua" />
 	<!-- test talkactions -->
 	<talkaction words="!z" separator=" " script="magiceffect.lua" />
 	<talkaction words="!x" separator=" " script="animationeffect.lua" />

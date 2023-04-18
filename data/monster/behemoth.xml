@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="behemoth" nameDescription="a behemoth" race="blood" experience="2500" speed="340" manacost="0">
-	<health now="4000" max="4000"/>
-	<look type="55" corpse="2931"/>
-	<targetchange interval="1000" chance="5"/>
-	<targetstrategies nearest="70" health="0" damage="30" random="0"/>
-	<flags>
-		<flag attackable="1"/>
-		<flag hostile="1"/>
-		<flag summonable="0"/>
-		<flag convinceable="0"/>
-		<flag illusionable="0"/>
-		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="80"/>
-		<flag runonhealth="0"/>
-	</flags>
-	<attacks>
-		<attack name="melee" skill="110" attack="75"/>
-		<attack name="physical" checkshield="1" chance="15" range="7" min="-125" max="-185">
-			<attribute key="shootEffect" value="largerock"/>
-		</attack>
-	</attacks>
-	<defenses armor="50" defense="357">
-		<defense name="haste_behemoth" chance="7"/>
-	</defenses>
-	<elements>
-		<element firePercent="100"/>
-		<element earthPercent="100"/>
-		<element energyPercent="100"/>
-	</elements>
-	<immunities>
-		<immunity paralyze="1"/>
-		<immunity invisible="1"/>
-	</immunities>
-	<voices interval="1000" chance="5">
-		<voice sentence="You're so little!"/>
-		<voice sentence="Human flesh - delicious!"/>
-		<voice sentence="Crush the intruders!" yell="1"/>
-	</voices>
+<monster name="Behemoth" nameDescription="a behemoth" race="blood" experience="2800" speed="340" manacost="0">
+  <health now="4000" max="4000"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="2931"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="110" attack="75"/>
+    <attack name="physical" interval="2000" chance="15" range="7" min="-1" max="-185">
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+  </attacks>
+  <defenses armor="50" defense="65">
+    <defense name="speed" interval="2000" chance="7" speedchange="500" duration="8000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="You're so little!"/>
+    <voice sentence="Human flesh - delicious!"/>
+    <voice sentence="Crush the intruders!" yell="1"/>
+  </voices>
 	<loot>
 		<item id="2666" chance="40000" countmax="6"/><!-- 6 40% meat -->
 		<item id="2148" chance="70000" countmax="60"/><!-- 60 70% gold coin -->

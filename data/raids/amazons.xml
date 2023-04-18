@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<announce delay="1000" type="warning" message="North gate of carlin is under siege..." />
+	<areaspawn delay="2000" radius="4" centerx="1004" centery="1091" centerz="7">
+		<monster name="amazon" amount="10" />
+		<monster name="valkyrie" amount="3" />
+	</areaspawn>
+</raid>

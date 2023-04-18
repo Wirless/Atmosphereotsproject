@@ -82,6 +82,8 @@ function getDistanceBetween(firstPosition, secondPosition)
 	return posDif
 end
 
+
+
 function getFormattedWorldTime()
 	local worldTime = getWorldTime()
 	local hours = math.floor(worldTime / 60)

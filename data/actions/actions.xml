@@ -21,7 +21,7 @@
 	<action itemid="2405" script="tools/sickle.lua" />
 		<action itemid="2321" script="tools/hammer.lua" />
 		<action itemid="2552" script="tools/hoe.lua" />
-		
+		<action itemid="2549" script="tools/rake.lua" />
 		
 	<action uniqueid="16000" script="usetp/desert.lua" />	
 	<action actionid="14611" script="usetp/tombe.lua" />
@@ -29,9 +29,12 @@
 	<action actionid="13565" script="usetp/1.lua" />
 	<action actionid="14365" script="usetp/sarkofag.lua" />
 	<action actionid="14112" script="usetp/sarkofag.lua" />
-
-	
-
+	<action actionid="1365" script="usetp/angelstatue.lua" />
+	<action actionid="1366" script="usetp/angelstatue.lua" />
+	<action actionid="2646" script="usetp/angelstatue.lua" />
+	<action actionid="2647" script="usetp/angelstatue.lua" />
+	<action actionid="2648" script="usetp/angelstatue.lua" />
+	<action actionid="2649" script="usetp/angelstatue.lua" />
 	<!-- Food -->
 	<action itemid="2362" script="other/food.lua" />
 	<action fromid="2666" toid="2691" script="other/food.lua" />

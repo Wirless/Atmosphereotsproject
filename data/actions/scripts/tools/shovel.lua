@@ -52,31 +52,51 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		
 	
 	elseif groundId == 103 then
+	
+		if player:getLevel() >= 20 then
+			local mudspawn2 = math.random(1, 100)
+			if mudspawn2 >= 95 then --5%
+				Game.createMonster("Minotaur", toPosition)
+			elseif mudspawn2 >= 85 then
+				Game.createMonster("Elf", toPosition)
+			elseif mudspawn2 >= 65 then
+				Game.createMonster("Orc", toPosition)
+			else
+				local amount = math.random(1, 3)
+				player:addItem(3976, amount)
+				player:addExperience(amount, true)
+			end
+		end
 		local mudpawn = math.random(1, 100)
 		if mudpawn >= 95 then -- 5%
 			Game.createMonster("Bug", toPosition)
-		elseif mudpawn > 85 and mudpawn < 95 then --10%
-			Game.createMonster("Rat", toPosition)
-		elseif mudpawn == 65 then --1%
-			Game.createMonster("Chicken", toPosition)
-		elseif mudpawn < 2 then --2%
-			Game.createMonster("Rotworm", toPosition)
-			elseif mudpawn == 1 then --1%
-			local amount = math.random(10, 4)
-			player:addItem(3976, amount)
-			target:getPosition():sendMagicEffect(10)
-			player:addExperience(amount, true)
-		elseif mudpawn <= 25 then -- 25%
-			local amount = math.random(1, 8)
-			player:addItem(3976, amount)
-			--Game.createItem(3976, amount, toPosition)
+			elseif mudpawn > 85 and mudpawn < 95 then --10%
+				Game.createMonster("Rat", toPosition)
+			elseif mudpawn == 65 then --1%
+				local chickenchance = math.random(1,10)
+				if chickenchance == 1 then
+				Game.createMonster("Chicken", toPosition)
+				else
+				return false
+				end
+			elseif mudpawn < 2 then --2%
+				Game.createMonster("Rotworm", toPosition)
+				elseif mudpawn == 1 then --1%
+				local amount = math.random(1, 0)
+				player:addItem(3976, amount)
+				target:getPosition():sendMagicEffect(10)
+				player:addExperience(amount, true)
+			elseif mudpawn <= 25 then -- 25%
+				local amount = math.random(1, 3)
+				player:addItem(3976, amount)
+				--Game.createItem(3976, amount, toPosition)
 
-			player:addExperience(amount, true)
-			--player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from gathering. You found ".. amount .. " worms.")
-			target:getPosition():sendMagicEffect(10)
-		else
-        toPosition:sendMagicEffect(CONST_ME_POFF)
-    end
+				player:addExperience(amount, true)
+				--player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from gathering. You found ".. amount .. " worms.")
+				toPosition:sendMagicEffect(CONST_ME_POFF)
+			else
+			toPosition:sendMagicEffect(CONST_ME_POFF)
+		end
 
 		
 		
@@ -90,7 +110,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			toPosition:sendMagicEffect(CONST_ME_POFF)
 		end
 	
-
+	
 
 	elseif target.itemid == 2824 then
         target:transform(3085)

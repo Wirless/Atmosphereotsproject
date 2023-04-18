@@ -15,4 +15,6 @@
 	<raid name="demon skeleton" file="ds.xml" interval2="120" margin="0" />
 	<raid name="necromancer" file="necromancer.xml" interval2="120" margin="0" />
 	<raid name="vampiredouble" file="vd.xml" interval2="120" margin="0" />
+	<raid name="hydra" file="hydra.xml" interval2="300" margin="0" />
+	<raid name="amazons" file="amazons.xml" interval2="60" margin="0" />
 </raids>

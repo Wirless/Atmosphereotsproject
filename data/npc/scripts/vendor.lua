@@ -40,6 +40,7 @@ shopModule:addBuyableItem({'blue backpack'}, 2002, 1000, 'blue backpack')
 
 
 
+shopModule:addSellableItem({'halberd'}, 2381, 200,'halberd')
 shopModule:addSellableItem({'red rose'}, 2744, 300,'red rose')
 shopModule:addSellableItem({'blue rose'}, 2745, 300,'blue rose')
 shopModule:addSellableItem({'yellow rose'}, 2746, 300,'yellow rose')
@@ -82,6 +83,8 @@ shopModule:addSellableItem({'dwarven shield'}, 2525, 250, 'dwarven shield')
 shopModule:addSellableItem({'orcish axe'}, 2428, 200, 'orcish axe')
 shopModule:addSellableItem({'battle axe'}, 2378, 100, 'battle axe')
 shopModule:addSellableItem({'double axe'}, 2387, 300, 'double axe')
+shopModule:addSellableItem({'worm'}, 3976, 1, 'worm')
+shopModule:addSellableItem({'silver dagger'}, 2402, 500, 'silver dagger')
 
 function creatureSayCallback(cid, type, msg)
 	if not npcHandler:isFocused(cid) then

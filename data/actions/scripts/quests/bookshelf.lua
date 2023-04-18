@@ -42,6 +42,24 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
             end
         end
 	-- banshhee quest
+		-- guido key
+	
+	
+    elseif uniqueId == 9001 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 9001 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(5315) -- Guido key
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "This is empty.")
+	end
+     
+	
 	
 	
 	--key to crypt shambler

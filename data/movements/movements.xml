@@ -10,6 +10,8 @@
 	
 	<!-- Isle of the kings tomb -->
 	<movevent event="StepIn" uniqueid="55663" script="tiles/cookies.lua" />
+	<movevent event="StepIn" uniqueid="55664" script="tiles/pig.lua" />
+	<movevent event="StepOut" uniqueid="55664" script="tiles/pig.lua" />
 	<movevent event="StepIn" uniqueid="55668" script="tiles/rose.lua" />
 	<movevent event="StepIn" uniqueid="55656" script="tiles/weddingringtile.lua" />
 	<movevent event="RemoveItem" itemid="2527" script="tiles/rosetake.lua" />

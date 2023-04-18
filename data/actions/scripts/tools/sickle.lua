@@ -3,7 +3,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
     
 	
 	if target.itemid == 2761 then
-    local exp = math.random(60, 270)
+    local exp = math.random(1, 150)
     player:addExperience(exp, true)
     --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience cutting orchids.")
     
