@@ -91,19 +91,30 @@ function creatureSayCallback(cid, type, msg)
 		return false
 	end
 
-	if msgcontains(msg, 'longsword')	then
-	
-	end
-				npcHandler.topic[cid] = 1
-	
-	
-	if msgcontains(msg, 'exp scroll') then
+		if msgcontains(msg, 'shovel') then
+			npcHandler:say("Do you want a shovel for 100 gold coins?", cid)
+			npcHandler.topic[cid] = 1
+			
 
-	
-	end
-	
+		elseif msgcontains(msg, 'longsword') then
+			-- add code for longsword here
+			npcHandler.topic[cid] = 2
 
-	return true
+		elseif msgcontains(msg, 'exp scroll') then
+			-- add code for exp scroll here
+			npcHandler.topic[cid] = 3
+
+		elseif npcHandler.topic[cid] == 1 and msgcontains(msg, 'yes') then
+			if doPlayerRemoveMoney(cid, 100) then
+				doPlayerAddItem(cid, 2554, 1)
+				npcHandler:say("Here's your shovel.", cid)
+			else
+				npcHandler:say("You don't have enough gold coins.", cid)
+			end
+
+		end
+
+return true
 end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)

@@ -47,19 +47,19 @@
 	<melee id="2413" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2377" level="20" unproperly="1">
+	<melee id="2377" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2392" level="30" unproperly="1" />
-	<melee id="2407" level="30" unproperly="1" />
-	<melee id="2438" level="30" unproperly="1" />
-	<melee id="2451" level="35" unproperly="1" />
-	<melee id="2446" level="45" unproperly="1" />
-	<melee id="2393" level="55" unproperly="1">
+	<melee id="2392" level="0" unproperly="1" />
+	<melee id="2407" level="0" unproperly="1" />
+	<melee id="2438" level="0" unproperly="1" />
+	<melee id="2451" level="0" unproperly="1" />
+	<melee id="2446" level="0" unproperly="1" />
+	<melee id="2393" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2400" level="80" unproperly="1" />
-	<melee id="2408" level="120" unproperly="1">
+	<melee id="2400" level="0" unproperly="1" />
+	<melee id="2408" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
 	<melee id="2390" level="140" unproperly="1">
@@ -70,50 +70,50 @@
 	<melee id="2378" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2429" level="20" unproperly="1" />
-	<melee id="2435" level="20" unproperly="1" />
-	<melee id="2425" level="20" unproperly="1" />
-	<melee id="2430" level="25" unproperly="1" />
-	<melee id="2387" level="25" unproperly="1">
+	<melee id="2429" level="0" unproperly="1" />
+	<melee id="2435" level="0" unproperly="1" />
+	<melee id="2425" level="0" unproperly="1" />
+	<melee id="2430" level="0" unproperly="1" />
+	<melee id="2387" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2381" level="25" unproperly="1" />
-	<melee id="2440" level="25" unproperly="1">
+	<melee id="2381" level="0" unproperly="1" />
+	<melee id="2440" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2426" level="25" unproperly="1" />
-	<melee id="3962" level="30" unproperly="1" />
-	<melee id="2432" level="35" unproperly="1" />
-	<melee id="2447" level="50" unproperly="1">
+	<melee id="2426" level="0" unproperly="1" />
+	<melee id="3962" level="0" unproperly="1" />
+	<melee id="2432" level="0" unproperly="1" />
+	<melee id="2447" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2427" level="55" unproperly="1" />
-	<melee id="2414" level="60" unproperly="1" />
-	<melee id="2454" level="65" unproperly="1">
+	<melee id="2427" level="0" unproperly="1" />
+	<melee id="2414" level="0" unproperly="1" />
+	<melee id="2454" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2443" level="70" unproperly="1">
+	<melee id="2443" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2431" level="90" unproperly="1" />
-	<melee id="2415" level="95" unproperly="1">
+	<melee id="2431" level="0" unproperly="1" />
+	<melee id="2415" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
 
 	<!--Clubs -->
-	<melee id="2423" level="20" unproperly="1" />
-	<melee id="2434" level="25" unproperly="1" />
-	<melee id="2436" level="30" unproperly="1" />
-	<melee id="3961" level="40" unproperly="1" />
-	<melee id="2445" level="35" unproperly="1" />
-	<melee id="2424" level="45" unproperly="1" />
-	<melee id="2391" level="50" unproperly="1">
+	<melee id="2423" level="0" unproperly="1" />
+	<melee id="2434" level="0" unproperly="1" />
+	<melee id="2436" level="0" unproperly="1" />
+	<melee id="3961" level="0" unproperly="1" />
+	<melee id="2445" level="0" unproperly="1" />
+	<melee id="2424" level="0" unproperly="1" />
+	<melee id="2391" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2444" level="65" unproperly="1">
+	<melee id="2444" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
-	<melee id="2452" level="70" unproperly="1">
+	<melee id="2452" level="0" unproperly="1">
 		<vocation name="Knight" />
 	</melee>
 
@@ -127,5 +127,5 @@
 	<distance id="2544" action="removecount" /> <!-- arrow -->
 	<distance id="2545" action="removecount" script="poison_arrow.lua" />
 	<distance id="2546" action="removecount" script="burst_arrow.lua" />
-	<distance id="2547" action="removecount" unproperly="1" level="55" /> <!-- Power Bolt -->
+	<distance id="2547" action="removecount" unproperly="1" level="0" /> <!-- Power Bolt -->
 </weapons>

@@ -10,6 +10,8 @@
 	<event type="kill" name="BroadcastKill" script="broadcastkill.lua" />
 	<event type="advance" name="levelmultiplier" script="levelmultiplier.lua" />
 	<event type="advance" name="levelup" script="levelup.lua" />
+	
+	<event type="modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />
 
 	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
 </creaturescripts>

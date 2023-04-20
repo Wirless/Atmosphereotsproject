@@ -18,6 +18,7 @@
 	<globalevent name="holyorchid" interval="20000" script="respawns/holyorchid.lua" />
 	<globalevent name="liferings" interval="14200000" script="respawns/liferings.lua" />
 	<globalevent name="backpack" interval="360000" script="respawns/backpacks.lua" />
+	<globalevent name="grapetemple" interval="300000" script="respawns/grapetemple.lua" />
 	<globalevent name="color" interval="2000" script="color.lua"/>
 	<!--
 	<globalevent name="timer_example" time="12:00:00" script="my_script.lua" />

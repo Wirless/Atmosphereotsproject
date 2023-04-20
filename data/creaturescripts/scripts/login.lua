@@ -56,6 +56,7 @@ function onLogin(player)
 	player:registerEvent("BroadcastKill")
 	player:registerEvent("levelmultiplier")
 	player:registerEvent("levelup")
+	player:registerEvent("ModalWindowHelper")
 
 	return true
 end

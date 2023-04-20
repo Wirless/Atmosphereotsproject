@@ -4660,7 +4660,10 @@ void Game::checkLight()
 }
 
 void Game::updateWorldLightLevel()
+
 {
+	lightLevel = LIGHT_NIGHT;
+	/*
 	if (getWorldTime() >= GAME_SUNRISE && getWorldTime() <= GAME_DAYTIME) {
 		lightLevel = ((GAME_DAYTIME - GAME_SUNRISE) - (GAME_DAYTIME - getWorldTime())) * float(LIGHT_CHANGE_SUNRISE) + LIGHT_NIGHT;
 	} else if (getWorldTime() >= GAME_SUNSET && getWorldTime() <= GAME_NIGHTTIME) {
@@ -4669,7 +4672,7 @@ void Game::updateWorldLightLevel()
 		lightLevel = LIGHT_NIGHT;
 	} else {
 		lightLevel = LIGHT_DAY;
-	}
+	}*/
 }
 
 void Game::updateWorldTime()

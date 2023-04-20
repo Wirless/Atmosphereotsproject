@@ -23,6 +23,7 @@
 #include "tools.h"
 #include "player.h"
 
+
 CreatureEvents::CreatureEvents() :
 	scriptInterface("CreatureScript Interface")
 {

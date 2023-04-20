@@ -5140,7 +5140,7 @@
 		<attribute key="worth" value="10000" />
 	</item>
 	<item id="2161" article="a" name="strange talisman">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="290"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -5159,7 +5159,7 @@
 		<attribute key="duration" value="3000"/>
 	</item>
 	<item id="2164" article="a" name="might ring">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="100"/>
 		<attribute key="slotType" value="ring"/>
 		<attribute key="charges" value="20"/>
@@ -5202,7 +5202,7 @@
 		<attribute key="showduration" value="1"/>
 	</item>
 	<item id="2170" article="a" name="silver amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="500"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -5222,7 +5222,7 @@
 		<attribute key="magicPoints" value="2"/>
 	</item>
 	<item id="2172" article="a" name="bronze amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="500"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -5322,7 +5322,7 @@
 		<attribute key="description" value="A Broken Amulet of Life."/> 
 	</item>
 	<item id="2197" article="a" name="stone skin amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="760"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="5"/>
@@ -5330,7 +5330,7 @@
 		<attribute key="absorbPercentPhysical" value="20"/>
 	</item>
 	<item id="2198" article="an" name="elven amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="270"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="50"/>
@@ -5341,7 +5341,7 @@
 		<attribute key="absorbPercentPoison" value="10"/>
 	</item>
 	<item id="2199" article="a" name="garlic necklace">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="380"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="150"/>
@@ -5349,7 +5349,7 @@
 		<attribute key="absorbPercentLifeDrain" value="20"/>
 	</item>
 	<item id="2200" article="a" name="protection amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="550"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="250"/>
@@ -5357,7 +5357,7 @@
 	<attribute key="absorbPercentPhysical" value="10"/>
 	</item>
 	<item id="2201" article="a" name="dragon necklace">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="630"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -15627,13 +15627,13 @@
 		<attribute key="weight" value="300" />
 		<attribute key="attack" value="50" />
 		<attribute key="weaponType" value="distance" />
-		<attribute key="shootType" value="assassinstar" />
+		<attribute key="shootType" value="suddendeath" />
 		<attribute key="maxHitChance" value="85" />				
 		<attribute key="range" value="5" />
 		<attribute key="breakChance" value="15" />
 		<attribute key="ammoAction" value="moveback" />
 	</item>
-	<!--terra set-->
+	<!--terra set--> 
 	<item id="5882" article="a" name="terra hood">
 		<attribute key="weight" value="1000"/>
 		<attribute key="armor" value="5"/>
@@ -15663,7 +15663,7 @@
 		<attribute key="absorbPercentFire" value="-5" />
 	</item>
 <item id="5878" article="an" name="terra amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="500"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -15701,7 +15701,7 @@
 		<attribute key="absorbPercentEnergy" value="-5" />
 	</item>
 <item id="5877" article="an" name="glacier amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="500"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -15739,7 +15739,7 @@
 		<attribute key="absorbPercentFire" value="5" />
 	</item>
 <item id="5875" article="an" name="magma amulet">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="500"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -15788,7 +15788,7 @@
 		<attribute key="absorbPercentEnergy" value="5" />
 	</item>
 <item id="5876" article="an" name="lightning pendant">
-		<attribute key="type" value="amulet"/>
+		
 		<attribute key="weight" value="500"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="charges" value="200"/>
@@ -16581,7 +16581,7 @@
 		<attribute key="description" value="Icecold rays of moonlight shimmer on its tip." />
 		<attribute key="weight" value="2100" />
 		<attribute key="weaponType" value="wand" />
-		<attribute key="shootType" value="frigox" />
+		<attribute key="shootType" value="ice" />
 		<attribute key="range" value="3" />
 	</item>
 	
@@ -16605,7 +16605,7 @@
 		<attribute key="description" value="It grants you the power of striking your foes with furious hailstorms." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
-		<attribute key="shootType" value="frigox" />
+		<attribute key="shootType" value="ice" />
 		<attribute key="range" value="3" />
 	</item>
 	

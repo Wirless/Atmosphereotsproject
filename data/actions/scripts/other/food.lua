@@ -77,6 +77,16 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		local exp = math.random(1, 120)
 		player:addExperience(exp, true)
 		player:addHealth(math.random(food[1],food[1]*3))
+		if exp >= 100 then
+		Game.createMonster("Chicken", toPosition)
+		Game.createMonster("Chicken", toPosition)
+		Game.createMonster("Chicken", toPosition)
+		elseif exp >= 90 then
+		Game.createMonster("Chicken", toPosition)
+		Game.createMonster("Chicken", toPosition)
+		elseif exp >= 70 then
+		Game.createMonster("Chicken", toPosition)
+		end
 		--player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from eating.")
 	end
 	
@@ -88,14 +98,14 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	end
 	
 	if item.itemid == 2669 then
-		local exp = math.random(1, 300)
+		local exp = math.random(1, 120)
 		player:addExperience(exp, true)
 		player:addMana(math.random(food[1],food[1]*2)) 
 		--player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from eating.")
 	end
 	
 	if item.itemid == 2667 then
-		local exp = math.random(1, 20)
+		local exp = math.random(1, 60)
 		player:addExperience(exp, true)
 			return true
 		

@@ -2924,30 +2924,30 @@ void ProtocolGame::sendOutfitWindow()
 
 	switch (player->getSex()) {
 		case PLAYERSEX_FEMALE: {
-			msg.add<uint16_t>(136);
+			msg.add<uint16_t>(229);
 			if (player->isPremium()) {
-				msg.add<uint16_t>(142);
+				msg.add<uint16_t>(264);
 			} else {
-				msg.add<uint16_t>(139);
+				msg.add<uint16_t>(235);
 			}
 
 			break;
 		}
 
 		case PLAYERSEX_MALE: {
-			msg.add<uint16_t>(128);
+			msg.add<uint16_t>(161);
 			if (player->isPremium()) {
-				msg.add<uint16_t>(134);
+				msg.add<uint16_t>(200);
 			} else {
-				msg.add<uint16_t>(131);
+				msg.add<uint16_t>(167);
 			}
 
 			break;
 		}
 
 		default: {
-			msg.add<uint16_t>(128);
-			msg.add<uint16_t>(134);
+			msg.add<uint16_t>(161);
+			msg.add<uint16_t>(200);
 		}
 	}
 
