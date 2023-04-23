@@ -60,11 +60,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				Game.createMonster("Orc Warrior", toPosition)
 				Game.createMonster("Orc Warrior", toPosition)
 			elseif mudspawn3 == 90 then
-				Game.createMonster("Cyclops", toPosition)
+				Game.createMonster("Orc", toPosition)
 			elseif mudspawn3 == 85 then
-				Game.createMonster("Cyclops", toPosition)
+				Game.createMonster("Orc", toPosition)
 			elseif mudspawn3 == 80 then
-				Game.createMonster("Cyclops", toPosition)
+				Game.createMonster("Orc", toPosition)
 			elseif mudspawn3 == 75 then
 				Game.createMonster("Minotaur", toPosition)
 				Game.createMonster("Minotaur", toPosition)
@@ -80,7 +80,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		if player:getLevel() >= 20 then
 			local mudspawn2 = math.random(1, 100)
 			if mudspawn2 == 95 then --5%
-				Game.createMonster("Orc Shaman", toPosition)
+				Game.createMonster("Orc", toPosition)
 			elseif mudspawn2 == 85 then
 				Game.createMonster("Elf", toPosition)
 			elseif mudspawn2 == 65 then
@@ -135,18 +135,8 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		if player:getLevel() >= 30 then
 			local mudspawn3 = math.random(1,100)
 				if mudspawn3 == 95 then
-				Game.createMonster("Orc Warrior", toPosition)
-				Game.createMonster("Orc Warrior", toPosition)
-			elseif mudspawn3 == 90 then
-				Game.createMonster("Cyclops", toPosition)
-			elseif mudspawn3 == 85 then
-				Game.createMonster("Cyclops", toPosition)
-			elseif mudspawn3 == 80 then
-				Game.createMonster("Cyclops", toPosition)
+				Game.createMonster("Orc", toPosition)
 			elseif mudspawn3 == 75 then
-				Game.createMonster("Minotaur", toPosition)
-				Game.createMonster("Minotaur", toPosition)
-				Game.createMonster("Minotaur", toPosition)
 				Game.createMonster("Minotaur", toPosition)
 				else
 			local amount = math.random(1, 3)
@@ -158,7 +148,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		if player:getLevel() >= 20 then
 			local mudspawn2 = math.random(1, 100)
 			if mudspawn2 == 95 then --5%
-				Game.createMonster("Orc Shaman", toPosition)
+				Game.createMonster("Orc Warrior", toPosition)
 			elseif mudspawn2 == 85 then
 				Game.createMonster("Elf", toPosition)
 			elseif mudspawn2 == 65 then

@@ -9,6 +9,7 @@
 	<!-- essa -->
 	
 	<!-- Isle of the kings tomb -->
+	<movevent event="StepIn" actionid="17026" script="tiles/gstp.lua" />
 	<movevent event="StepIn" uniqueid="55663" script="tiles/cookies.lua" />
 	<movevent event="StepIn" uniqueid="55664" script="tiles/pig.lua" />
 	<movevent event="StepOut" uniqueid="55664" script="tiles/pig.lua" />
@@ -320,7 +321,26 @@
 	<movevent event="DeEquip" itemid="2664" slot="head" function="onDeEquipItem" />
 
 	<!-- Armors -->
-
+<movevent event="Equip" itemid="2468-2470" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2468-2470" slot="legs" function="onDeEquipItem" />
+<movevent event="Equip" itemid="2469" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2469" slot="legs" function="onDeEquipItem" />	
+	<movevent event="Equip" itemid="2470" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2470" slot="legs" function="onDeEquipItem" />
+	<movevent event="Equip" itemid="2477" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2477" slot="legs" function="onDeEquipItem" />	
+		<movevent event="Equip" itemid="2478" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2478" slot="legs" function="onDeEquipItem" />	
+	<movevent event="Equip" itemid="2495" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2495" slot="legs" function="onDeEquipItem" />	
+	<movevent event="Equip" itemid="2488" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2488" slot="legs" function="onDeEquipItem" />	
+	<movevent event="Equip" itemid="2507" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2507" slot="legs" function="onDeEquipItem" />	
+	<movevent event="Equip" itemid="2647" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2647" slot="legs" function="onDeEquipItem" />	
+	<movevent event="Equip" itemid="2504" slot="legs" function="onEquipItem" />
+	<movevent event="DeEquip" itemid="2504" slot="legs" function="onDeEquipItem" />	
 	<movevent event="Equip" itemid="2472" slot="armor" function="onEquipItem">
 
 	</movevent>

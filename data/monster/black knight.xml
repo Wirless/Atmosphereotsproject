@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="black knight" nameDescription="a black knight" race="blood" experience="1600" speed="390" manacost="0">
-	<health now="18000" max="18000"/>
+	<health now="3300" max="3300"/>
 	<look type="131" head="95" body="95" legs="95" feet="95" corpse="3128"/>
 	<targetchange interval="1000" chance="3"/>
 	<targetstrategies nearest="80" health="10" damage="10" random="0"/>

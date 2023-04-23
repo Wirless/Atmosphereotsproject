@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="hero" nameDescription="a hero" race="blood" experience="1200" speed="280" manacost="0">
-	<health now="14000" max="14000"/>
+	<health now="1400" max="1400"/>
 	<look type="73" corpse="3128"/>
 	<targetchange interval="1000" chance="5"/>
 	<targetstrategies nearest="80" health="10" damage="10" random="0"/>

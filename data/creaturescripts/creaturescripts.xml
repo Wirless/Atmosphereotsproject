@@ -13,5 +13,7 @@
 	
 	<event type="modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />
 
+
+
 	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
 </creaturescripts>

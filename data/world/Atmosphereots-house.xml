@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <houses>
-	<house name="Senja I" houseid="1" entryx="911" entryy="1054" entryz="7" rent="0" townid="5" size="27" />
-	<house name="Senja II" houseid="2" entryx="908" entryy="1055" entryz="7" rent="0" townid="5" size="47" />
-	<house name="Senja III" houseid="3" entryx="899" entryy="1050" entryz="7" rent="0" townid="5" size="49" />
+	<house name="Senja I" houseid="1" entryx="911" entryy="1054" entryz="7" rent="0" townid="5" size="26" />
+	<house name="Senja II" houseid="2" entryx="908" entryy="1055" entryz="7" rent="0" townid="5" size="45" />
+	<house name="Senja III" houseid="3" entryx="899" entryy="1050" entryz="7" rent="0" townid="5" size="48" />
 	<house name="Senja IV" houseid="4" entryx="917" entryy="1038" entryz="7" rent="0" townid="5" size="19" />
 	<house name="Senja V" houseid="5" entryx="918" entryy="1035" entryz="7" rent="0" townid="5" size="13" />
 	<house name="Senja VI" houseid="6" entryx="922" entryy="1043" entryz="7" rent="0" townid="5" size="31" />
@@ -10,90 +10,70 @@
 	<house name="Senja VIII" houseid="8" entryx="930" entryy="1040" entryz="6" rent="0" townid="5" size="25" />
 	<house name="Senja IX" houseid="9" entryx="925" entryy="1034" entryz="6" rent="0" townid="5" size="13" />
 	<house name="Senja X" houseid="10" entryx="899" entryy="1039" entryz="6" rent="0" townid="5" size="11" />
-	<house name="" houseid="182" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20" />
-	<house name="" houseid="183" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20" />
-	<house name="" houseid="184" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25" />
-	<house name="" houseid="185" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="19" />
-	<house name="" houseid="186" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="16" />
-	<house name="" houseid="187" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="16" />
-	<house name="" houseid="188" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="36" />
-	<house name="" houseid="189" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14" />
-	<house name="" houseid="190" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14" />
-	<house name="" houseid="191" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="17" />
-	<house name="" houseid="192" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
-	<house name="" houseid="193" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="194" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="195" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="197" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="164" />
-	<house name="" houseid="198" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="39" />
-	<house name="" houseid="199" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20" />
-	<house name="" houseid="201" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="236" />
-	<house name="" houseid="202" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="192" />
-	<house name="" houseid="203" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="76" />
-	<house name="" houseid="204" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="205" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="206" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="207" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="208" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="209" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="210" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="211" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="212" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="13" />
-	<house name="" houseid="213" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="16" />
-	<house name="" houseid="214" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="215" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="12" />
-	<house name="" houseid="216" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="12" />
-	<house name="" houseid="217" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="218" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="2" />
-	<house name="" houseid="219" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="220" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="221" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="2" />
-	<house name="" houseid="222" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="223" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="47" />
-	<house name="" houseid="224" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34" />
-	<house name="" houseid="225" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="89" />
-	<house name="" houseid="227" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="33" />
-	<house name="" houseid="228" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="40" />
-	<house name="" houseid="229" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="11" />
-	<house name="" houseid="230" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="231" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="232" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
-	<house name="" houseid="233" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
-	<house name="" houseid="235" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="236" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="237" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="238" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="239" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="4" />
-	<house name="" houseid="240" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="241" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
-	<house name="" houseid="242" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="243" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="244" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="4" />
-	<house name="" houseid="245" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="246" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="247" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
-	<house name="" houseid="248" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="249" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="6" />
-	<house name="" houseid="250" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
-	<house name="" houseid="251" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="20" />
-	<house name="" houseid="252" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="18" />
-	<house name="" houseid="253" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="19" />
-	<house name="" houseid="254" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="4" />
-	<house name="" houseid="255" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="256" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="257" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
-	<house name="" houseid="258" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
-	<house name="" houseid="259" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
-	<house name="" houseid="276" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="" houseid="277" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="" houseid="279" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="253" />
-	<house name="" houseid="825" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="122" />
-	<house name="" houseid="826" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="194" />
-	<house name="" houseid="827" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="56" />
-	<house name="" houseid="837" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
-	<house name="" houseid="838" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
-	<house name="" houseid="839" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
-	<house name="" houseid="840" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="23" />
-	<house name="" houseid="841" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
-	<house name="" houseid="964" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="87" />
+	<house name="Greenshore Sandcastle" houseid="103" entryx="907" entryy="962" entryz="7" rent="0" townid="7" size="257" />
+	<house name="Greenshore Main" houseid="104" entryx="895" entryy="961" entryz="7" rent="0" townid="7" size="128" />
+	<house name="Greenshore Royal House" houseid="105" entryx="893" entryy="937" entryz="7" rent="0" townid="7" size="124" />
+	<house name="Greenshore I" houseid="106" entryx="891" entryy="954" entryz="7" rent="0" townid="7" size="30" />
+	<house name="Greenshore Smith" houseid="109" entryx="895" entryy="944" entryz="7" rent="0" townid="7" size="20" />
+	<house name="Greenshore Bungalow" houseid="112" entryx="883" entryy="924" entryz="7" rent="0" townid="7" size="17" />
+	<house name="Idletibianic" houseid="113" entryx="880" entryy="908" entryz="6" rent="0" townid="7" size="306" />
+	<house name="Carlin I" houseid="182" entryx="998" entryy="1105" entryz="7" rent="0" townid="2" size="20" />
+	<house name="Carlin II" houseid="183" entryx="989" entryy="1105" entryz="7" rent="0" townid="2" size="20" />
+	<house name="Carlin III" houseid="184" entryx="992" entryy="1101" entryz="6" rent="0" townid="2" size="25" />
+	<house name="Carlin IV" houseid="185" entryx="992" entryy="1102" entryz="6" rent="0" townid="2" size="19" />
+	<house name="Deposit I" houseid="186" entryx="993" entryy="1110" entryz="7" rent="0" townid="2" size="16" />
+	<house name="Deposit II" houseid="187" entryx="993" entryy="1110" entryz="7" rent="0" townid="2" size="16" />
+	<house name="Carlin Main Street I" houseid="188" entryx="964" entryy="1129" entryz="7" rent="0" townid="2" size="36" />
+	<house name="Carlin Mill" houseid="189" entryx="970" entryy="1139" entryz="7" rent="0" townid="2" size="14" />
+	<house name="Carlin Main Street II" houseid="190" entryx="973" entryy="1129" entryz="7" rent="0" townid="2" size="14" />
+	<house name="Carlin Main Street III" houseid="191" entryx="977" entryy="1129" entryz="7" rent="0" townid="2" size="17" />
+	<house name="Carlin Sky Towers I" houseid="192" entryx="974" entryy="1133" entryz="6" rent="0" townid="2" size="8" />
+	<house name="Carlin Sky Towers II" houseid="193" entryx="974" entryy="1133" entryz="6" rent="0" townid="2" size="7" />
+	<house name="Carlin Sky Towers III" houseid="194" entryx="974" entryy="1136" entryz="6" rent="0" townid="2" size="7" />
+	<house name="Carlin Sky Towers IV" houseid="195" entryx="974" entryy="1136" entryz="6" rent="0" townid="2" size="6" />
+	<house name="Carlin Towers" houseid="197" entryx="970" entryy="1156" entryz="7" rent="0" townid="2" size="164" />
+	<house name="Druids Mansion" houseid="198" entryx="980" entryy="1158" entryz="7" rent="0" townid="2" size="39" />
+	<house name="Carlin Bay I" houseid="199" entryx="994" entryy="1157" entryz="7" rent="0" townid="2" size="20" />
+	<house name="Imp mansion" houseid="201" entryx="982" entryy="1177" entryz="7" rent="0" townid="2" size="236" />
+	<house name="Carlin South Castle" houseid="202" entryx="1004" entryy="1185" entryz="7" rent="0" townid="2" size="192" />
+	<house name="Carlin Sorcerers Mansion" houseid="203" entryx="1025" entryy="1161" entryz="7" rent="0" townid="2" size="76" />
+	<house name="Fishing Clan" houseid="214" entryx="1048" entryy="1181" entryz="5" rent="0" townid="2" size="96" />
+	<house name="Carlin Port" houseid="215" entryx="1043" entryy="1147" entryz="7" rent="0" townid="2" size="12" />
+	<house name="Carlin Port II" houseid="216" entryx="1046" entryy="1147" entryz="7" rent="0" townid="2" size="12" />
+	<house name="East Quarter III" houseid="217" entryx="1038" entryy="1132" entryz="7" rent="0" townid="2" size="10" />
+	<house name="East Quarter II" houseid="218" entryx="1039" entryy="1132" entryz="7" rent="0" townid="2" size="2" />
+	<house name="East Quarter I" houseid="219" entryx="1039" entryy="1132" entryz="7" rent="0" townid="2" size="10" />
+	<house name="East Quarter VI" houseid="220" entryx="1038" entryy="1132" entryz="6" rent="0" townid="2" size="10" />
+	<house name="East Quarter V" houseid="221" entryx="1039" entryy="1132" entryz="6" rent="0" townid="2" size="2" />
+	<house name="East Quarter IV" houseid="222" entryx="1039" entryy="1132" entryz="6" rent="0" townid="2" size="10" />
+	<house name="Druids Keep" houseid="223" entryx="1056" entryy="1134" entryz="7" rent="0" townid="2" size="47" />
+	<house name="Carlin Sky Towers VII" houseid="224" entryx="1059" entryy="1139" entryz="6" rent="0" townid="2" size="34" />
+	<house name="Doras House" houseid="225" entryx="1062" entryy="1136" entryz="7" rent="0" townid="2" size="89" />
+	<house name="Combo Base" houseid="227" entryx="1052" entryy="1112" entryz="7" rent="0" townid="2" size="33" />
+	<house name="Chucks Gaff" houseid="228" entryx="1043" entryy="1110" entryz="7" rent="0" townid="2" size="40" />
+	<house name="Carlin Library I" houseid="229" entryx="1033" entryy="1107" entryz="6" rent="0" townid="2" size="11" />
+	<house name="Carlin Library II" houseid="230" entryx="1031" entryy="1105" entryz="6" rent="0" townid="2" size="10" />
+	<house name="Carlin Library III" houseid="231" entryx="1020" entryy="1105" entryz="6" rent="0" townid="2" size="10" />
+	<house name="Carlin Library IV" houseid="232" entryx="1019" entryy="1105" entryz="6" rent="0" townid="2" size="15" />
+	<house name="Carlin Temple IV" houseid="235" entryx="1024" entryy="1120" entryz="6" rent="0" townid="2" size="7" />
+	<house name="Carlin Temple III" houseid="236" entryx="1022" entryy="1120" entryz="6" rent="0" townid="2" size="7" />
+	<house name="Carlin Temple I" houseid="237" entryx="1022" entryy="1120" entryz="6" rent="0" townid="2" size="7" />
+	<house name="Carlin Temple II" houseid="238" entryx="1024" entryy="1120" entryz="6" rent="0" townid="2" size="7" />
+	<house name="Hotel Carlinfornia" houseid="239" entryx="1011" entryy="1124" entryz="7" rent="0" townid="2" size="74" />
+	<house name="Butcher Tower I" houseid="251" entryx="1020" entryy="1133" entryz="6" rent="0" townid="2" size="20" />
+	<house name="Butcher Tower II" houseid="252" entryx="1020" entryy="1130" entryz="5" rent="0" townid="2" size="18" />
+	<house name="Flower Shop" houseid="253" entryx="1029" entryy="1137" entryz="6" rent="0" townid="2" size="19" />
+	<house name="Carlin Sky Towers V" houseid="258" entryx="985" entryy="1140" entryz="6" rent="0" townid="2" size="15" />
+	<house name="Carlin Sky Towers VI" houseid="259" entryx="985" entryy="1145" entryz="6" rent="0" townid="2" size="15" />
+	<house name="Fibula II" houseid="825" entryx="1013" entryy="909" entryz="7" rent="0" townid="6" size="122" />
+	<house name="Fibula I" houseid="826" entryx="975" entryy="910" entryz="7" rent="0" townid="6" size="194" />
+	<house name="Fibula Bar" houseid="827" entryx="986" entryy="935" entryz="7" rent="0" townid="6" size="56" />
+	<house name="Carlin Market" houseid="837" entryx="1008" entryy="1150" entryz="7" rent="0" townid="2" size="8" />
+	<house name="Carlin Market II" houseid="838" entryx="1008" entryy="1144" entryz="7" rent="0" townid="2" size="8" />
+	<house name="Carlin Market III" houseid="839" entryx="1008" entryy="1138" entryz="7" rent="0" townid="2" size="8" />
+	<house name="Greenshore Hotel IV" houseid="854" entryx="881" entryy="934" entryz="7" rent="0" townid="7" size="9" />
+	<house name="Greenshore Hotel III" houseid="855" entryx="876" entryy="934" entryz="7" rent="0" townid="7" size="9" />
+	<house name="Greenshore Hotel II" houseid="856" entryx="876" entryy="933" entryz="7" rent="0" townid="7" size="9" />
+	<house name="Greenshore Hotel I" houseid="857" entryx="881" entryy="933" entryz="7" rent="0" townid="7" size="9" />
+	<house name="Marcs House" houseid="964" entryx="1057" entryy="1152" entryz="7" rent="0" townid="2" size="87" />
 </houses>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="dragon" nameDescription="a dragon" race="blood" experience="700" speed="170" manacost="0">
-	<health now="10000" max="10000"/>
+	<health now="1000" max="1000"/>
 	<look type="34" corpse="3104"/>
 	<targetchange interval="1000" chance="5"/>
 	<targetstrategies nearest="70" health="10" damage="10" random="10"/>

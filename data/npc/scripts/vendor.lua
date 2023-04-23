@@ -104,13 +104,13 @@ function creatureSayCallback(cid, type, msg)
 			-- add code for exp scroll here
 			npcHandler.topic[cid] = 3
 
-		elseif npcHandler.topic[cid] == 1 and msgcontains(msg, 'yes') then
-			if doPlayerRemoveMoney(cid, 100) then
-				doPlayerAddItem(cid, 2554, 1)
-				npcHandler:say("Here's your shovel.", cid)
-			else
-				npcHandler:say("You don't have enough gold coins.", cid)
-			end
+		--elseif npcHandler.topic[cid] == 1 and msgcontains(msg, 'yes') then
+		--	if doPlayerRemoveMoney(cid, 100) then
+		--		doPlayerAddItem(cid, 2554, 1)
+		--		npcHandler:say("Here's your shovel.", cid)
+		--	else
+		--		npcHandler:say("You don't have enough gold coins.", cid)
+		--	end
 
 		end
 
