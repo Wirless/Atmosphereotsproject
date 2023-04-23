@@ -6,6 +6,11 @@
 	<action fromid="1747" toid="1749" script="quests/quests.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
 	
+	
+	
+	<!-- levers -->
+	<action actionid="15526" script="levers/fibulalever.lua" />
+	
 	<!-- servidor actions-->
 	<action itemid="1956" script="other/maps.lua" />
 	

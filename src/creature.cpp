@@ -138,7 +138,9 @@ void Creature::onThink(uint32_t interval)
 		updateMapCache();
 	}
 
-	if (followCreature && master != followCreature && !canSeeCreature(followCreature)) {
+	if (followCreature && master != followCreature && !
+		
+		Creature(followCreature)) {
 		onCreatureDisappear(followCreature, false);
 	}
 
