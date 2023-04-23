@@ -85,6 +85,10 @@
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</instant>
+	<instant group="attack" name="Shuriken Throw" words="exori con mox" level="77" mana="140" premium="0" range="5" needtarget="1" cooldown="2000" blockwalls="1" needlearn="0" script="attack/shuriken_throw.lua">
+		<vocation name="Paladin" />
+		<vocation name="Royal Paladin" />
+	</instant>
 	<instant group="attack" name="Whirlwind Throw" words="exori hur" level="28" mana="40" premium="0" range="5" needtarget="1" blockwalls="1" needweapon="1" cooldown="2000" needlearn="0" script="attack/whirlwind_throw.lua">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" />

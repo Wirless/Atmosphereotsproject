@@ -23,7 +23,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		tile = Tile(toPosition)
 		if tile then
 			local thing = tile:getTopVisibleThing()
-			if thing:isPlayer() then
+			if thing:isPlayer() or thing:isCreature() or thing:isMonster() then
 				if Tile(toPosition:moveUpstairs()):hasFlag(TILESTATE_PROTECTIONZONE) and thing:isPzLocked() then
 					return false
 				end
@@ -32,6 +32,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			if thing:isItem() and thing:getType():isMovable() then
 				return thing:moveTo(toPosition:moveUpstairs())
 			end
+		
 		end
 		player:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
 		return true
