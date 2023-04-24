@@ -35,6 +35,87 @@
 	<action uniqueid="36004" script="wardrobe/wardrobe.lua" />	
 	
 	
+	<!-- wardrobe male -->
+	<action actionid="161" script="wardrobe/wardrobe.lua" />	
+	<action actionid="162" script="wardrobe/wardrobe.lua" />	
+	<action actionid="163" script="wardrobe/wardrobe.lua" />	
+	<action actionid="164" script="wardrobe/wardrobe.lua" />	
+	<action actionid="165" script="wardrobe/wardrobe.lua" />	
+	<action actionid="166" script="wardrobe/wardrobe.lua" />	
+	<action actionid="167" script="wardrobe/wardrobe.lua" />	
+	<action actionid="168" script="wardrobe/wardrobe.lua" />	
+	<action actionid="169" script="wardrobe/wardrobe.lua" />	
+	<action actionid="170" script="wardrobe/wardrobe.lua" />	
+	<action actionid="171" script="wardrobe/wardrobe.lua" />	
+	<action actionid="172" script="wardrobe/wardrobe.lua" />	
+	<action actionid="173" script="wardrobe/wardrobe.lua" />	
+	<action actionid="174" script="wardrobe/wardrobe.lua" />	
+	<action actionid="175" script="wardrobe/wardrobe.lua" />	
+	<action actionid="176" script="wardrobe/wardrobe.lua" />	
+	<action actionid="177" script="wardrobe/wardrobe.lua" />	
+	<action actionid="178" script="wardrobe/wardrobe.lua" />	
+	<action actionid="179" script="wardrobe/wardrobe.lua" />	
+	<action actionid="180" script="wardrobe/wardrobe.lua" />	
+	<action actionid="181" script="wardrobe/wardrobe.lua" />	
+	<action actionid="182" script="wardrobe/wardrobe.lua" />	
+	<action actionid="183" script="wardrobe/wardrobe.lua" />	
+	<action actionid="184" script="wardrobe/wardrobe.lua" />	
+	<action actionid="185" script="wardrobe/wardrobe.lua" />	
+	<action actionid="186" script="wardrobe/wardrobe.lua" />	
+	<action actionid="187" script="wardrobe/wardrobe.lua" />	
+	<action actionid="188" script="wardrobe/wardrobe.lua" />	
+	<action actionid="189" script="wardrobe/wardrobe.lua" />	
+	<action actionid="190" script="wardrobe/wardrobe.lua" />	
+	<action actionid="191" script="wardrobe/wardrobe.lua" />	
+	<action actionid="192" script="wardrobe/wardrobe.lua" />	
+	<action actionid="193" script="wardrobe/wardrobe.lua" />	
+	<action actionid="194" script="wardrobe/wardrobe.lua" />	
+	<action actionid="195" script="wardrobe/wardrobe.lua" />	
+	<action actionid="196" script="wardrobe/wardrobe.lua" />	
+	<action actionid="197" script="wardrobe/wardrobe.lua" />	
+	<action actionid="198" script="wardrobe/wardrobe.lua" />	
+	<action actionid="199" script="wardrobe/wardrobe.lua" />	
+	<action actionid="200" script="wardrobe/wardrobe.lua" />	
+		<!-- wardrobe female -->
+	<action actionid="229" script="wardrobe/wardrobe.lua" />	
+	<action actionid="230" script="wardrobe/wardrobe.lua" />	
+	<action actionid="231" script="wardrobe/wardrobe.lua" />	
+	<action actionid="232" script="wardrobe/wardrobe.lua" />	
+	<action actionid="233" script="wardrobe/wardrobe.lua" />	
+	<action actionid="234" script="wardrobe/wardrobe.lua" />	
+	<action actionid="235" script="wardrobe/wardrobe.lua" />	
+	<action actionid="236" script="wardrobe/wardrobe.lua" />	
+	<action actionid="237" script="wardrobe/wardrobe.lua" />	
+	<action actionid="238" script="wardrobe/wardrobe.lua" />	
+	<action actionid="239" script="wardrobe/wardrobe.lua" />	
+	<action actionid="240" script="wardrobe/wardrobe.lua" />	
+	<action actionid="241" script="wardrobe/wardrobe.lua" />	
+	<action actionid="242" script="wardrobe/wardrobe.lua" />	
+	<action actionid="243" script="wardrobe/wardrobe.lua" />	
+	<action actionid="244" script="wardrobe/wardrobe.lua" />	
+	<action actionid="245" script="wardrobe/wardrobe.lua" />	
+	<action actionid="246" script="wardrobe/wardrobe.lua" />	
+	<action actionid="247" script="wardrobe/wardrobe.lua" />	
+	<action actionid="248" script="wardrobe/wardrobe.lua" />	
+	<action actionid="249" script="wardrobe/wardrobe.lua" />	
+	<action actionid="250" script="wardrobe/wardrobe.lua" />	
+	<action actionid="251" script="wardrobe/wardrobe.lua" />	
+	<action actionid="252" script="wardrobe/wardrobe.lua" />	
+	<action actionid="253" script="wardrobe/wardrobe.lua" />	
+	<action actionid="254" script="wardrobe/wardrobe.lua" />	
+	<action actionid="255" script="wardrobe/wardrobe.lua" />	
+	<action actionid="256" script="wardrobe/wardrobe.lua" />	
+	<action actionid="257" script="wardrobe/wardrobe.lua" />	
+	<action actionid="258" script="wardrobe/wardrobe.lua" />	
+	<action actionid="259" script="wardrobe/wardrobe.lua" />	
+	<action actionid="260" script="wardrobe/wardrobe.lua" />	
+	<action actionid="261" script="wardrobe/wardrobe.lua" />	
+	<action actionid="262" script="wardrobe/wardrobe.lua" />	
+	<action actionid="263" script="wardrobe/wardrobe.lua" />	
+	<action actionid="264" script="wardrobe/wardrobe.lua" />	
+<!-- end wardrobe -->
+	
+	
 	
 	<action uniqueid="16000" script="usetp/desert.lua" />	
 	<action actionid="14611" script="usetp/tombe.lua" />

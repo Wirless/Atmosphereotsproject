@@ -130,18 +130,23 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		
 	elseif groundId == 107 then
 	
+	if player:getCondition(CONDITION_DRUNK) then
+				local amount = math.random(20, 40)
+				player:addExperience(amount, true)
+			end
+	
 	if player:getLevel() >= 70 then
-			local mudspawn3 = math.random(1,100)
-				if mudspawn3 >= 95 then
-				Game.createMonster("Dragon", toPosition)
+			local mudspawn3 = math.random(1,1000)
+				if mudspawn3 == 95 then
+				Game.createMonster("Dwarf Geomancer", toPosition)
 			elseif mudspawn3 == 90 then
-				Game.createMonster("Dragon", toPosition)
-				Game.createMonster("Dragon Lord", toPosition)
+				Game.createMonster("Dwarf Soldier", toPosition)
+				Game.createMonster("Dwarf Guard", toPosition)
 			elseif mudspawn3 == 85 then
 				Game.createMonster("Dragon", toPosition)
-			elseif mudspawn3 == 80 then
+			elseif mudspawn3 <= 55 then
 				Game.createMonster("Dwarf guard", toPosition)
-			elseif mudspawn3 == 75 then
+			elseif mudspawn3 <= 35 then
 				Game.createMonster("Dwarf Soldier", toPosition)
 				Game.createMonster("Dwarf Soldier", toPosition)
 				Game.createMonster("Dwarf Guard", toPosition)
@@ -169,6 +174,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				local amount = math.random(20, 40)
 				player:addExperience(amount, true)
 			end
+			
 		end
 		local mudpawn = math.random(1, 100)
 		if mudpawn >= 95 then -- 5%
@@ -192,7 +198,10 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		
 		
 	elseif groundId >= 4526 and groundId <= 4541 then
-	
+	if player:getCondition(CONDITION_DRUNK) then
+				local amount = math.random(20, 40)
+				player:addExperience(amount, true)
+			end
 	
 		if player:getLevel() >= 30 then
 			local mudspawn3 = math.random(1,100)
@@ -270,6 +279,10 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		
 		
     elseif groundId == 231 then
+	if player:getCondition(CONDITION_DRUNK) then
+				local amount = math.random(10, 30)
+				player:addExperience(amount, true)
+	end
         local rarity = math.random(1, 1000)
         local randomValue = math.random(1, 1000)
 
@@ -279,8 +292,6 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
         elseif randomValue > 10 and randomValue <= 60 then -- 5% chance
             local itemId = items[2][math.random(1, #items[2])]
             Game.createItem(itemId, 100, toPosition)
-        elseif randomValue > 950 then -- 1% chance
-            Game.createMonster("Scarab", toPosition)
         elseif randomValue > 60 and randomValue <= 250 then -- 19% chance
             Game.createMonster("Larva", toPosition)
         elseif randomValue > 250 and randomValue <= 280 then -- 3% chance
@@ -295,9 +306,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
             Game.createMonster("Scarab", toPosition)
             Game.createMonster("Larva", toPosition)
         else -- 50% chance
-            return false
+			toPosition:sendMagicEffect(CONST_ME_POFF)
+			local amount = math.random(8, 16)
+			player:addExperience(amount, true)
         end
-		toPosition:sendMagicEffect(CONST_ME_POFF)
+
         toPosition:sendMagicEffect(CONST_ME_POFF)
 	
     else

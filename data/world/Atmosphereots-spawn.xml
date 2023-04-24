@@ -1547,6 +1547,9 @@
 		<monster name="sheep" x="-3" y="-2" z="7" spawntime="180" />
 		<monster name="sheep" x="-5" y="2" z="7" spawntime="180" />
 	</spawn>
+	<spawn centerx="997" centery="1147" centerz="7" radius="1">
+		<npc name="Janusz Plecakowicz" x="0" y="0" z="7" spawntime="240" />
+	</spawn>
 	<spawn centerx="963" centery="1154" centerz="7" radius="1">
 		<npc name="Padreia" x="1" y="-1" z="7" spawntime="180" />
 	</spawn>

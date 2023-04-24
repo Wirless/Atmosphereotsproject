@@ -8,7 +8,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	
 	
 	if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You can't fish in protection zone.")
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You can't fish in protection zone. Try Sunday The holy AFK Day.")
         return false
     end
 	
