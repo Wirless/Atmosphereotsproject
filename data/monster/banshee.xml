@@ -72,7 +72,7 @@
 				<item id="2197" chance="800"/><!-- 0.8% stone skin amulet -->
 				<item id="2170" chance="9000"/><!-- 9% silver amulet -->
 				<item id="2214" chance="800"/><!-- 0.8% ring of healing -->
-				<item id="2550" chance="500"/><!-- 0.5% spellbook -->
+				<item id="2550" chance="500"/><!-- 0.5% scythe -->
 			</inside>
 		</item>
 	</loot>

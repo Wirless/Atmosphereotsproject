@@ -339,6 +339,20 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		else
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
 		end
+	--stil xding
+	elseif uniqueId == 4253 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 4253 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(4253) -- Set the action ID of the key item
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
+		end
 	-- black knight key
 	
 	

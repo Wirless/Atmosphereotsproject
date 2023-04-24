@@ -1553,12 +1553,6 @@
 	<spawn centerx="1101" centery="1162" centerz="7" radius="1">
 		<monster name="minotaur" x="1" y="-1" z="7" spawntime="120" />
 	</spawn>
-	<spawn centerx="990" centery="1165" centerz="7" radius="1">
-		<npc name="Nydala" x="0" y="1" z="7" spawntime="180" />
-	</spawn>
-	<spawn centerx="1005" centery="1166" centerz="7" radius="1">
-		<npc name="Xodet" x="1" y="0" z="7" spawntime="180" />
-	</spawn>
 	<spawn centerx="1092" centery="1168" centerz="7" radius="1">
 		<monster name="minotaur" x="0" y="0" z="7" spawntime="120" />
 	</spawn>

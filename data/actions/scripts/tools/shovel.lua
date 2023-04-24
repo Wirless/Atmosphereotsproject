@@ -128,6 +128,68 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		end
 
 		
+	elseif groundId == 107 then
+	
+	if player:getLevel() >= 70 then
+			local mudspawn3 = math.random(1,100)
+				if mudspawn3 >= 95 then
+				Game.createMonster("Dragon", toPosition)
+			elseif mudspawn3 == 90 then
+				Game.createMonster("Dragon", toPosition)
+				Game.createMonster("Dragon Lord", toPosition)
+			elseif mudspawn3 == 85 then
+				Game.createMonster("Dragon", toPosition)
+			elseif mudspawn3 == 80 then
+				Game.createMonster("Dwarf guard", toPosition)
+			elseif mudspawn3 == 75 then
+				Game.createMonster("Dwarf Soldier", toPosition)
+				Game.createMonster("Dwarf Soldier", toPosition)
+				Game.createMonster("Dwarf Guard", toPosition)
+				Game.createMonster("Dwarf", toPosition)
+				else
+			local amount = math.random(20, 60)
+				player:addExperience(amount, true)
+				end
+		end
+		
+		if player:getLevel() >= 35 then
+			local mudspawn2 = math.random(1, 100)
+			if mudspawn2 >= 95 then --5%
+				Game.createMonster("Wild warrior", toPosition)
+			elseif mudspawn2 >= 85 then
+				Game.createMonster("Smuggler", toPosition)
+			elseif mudspawn2 >= 65 then
+				Game.createMonster("Cyclops", toPosition)
+			elseif mudspawn2 >= 55 then
+				Game.createMonster("Minotaur", toPosition)
+			elseif mudspawn2 >= 45 then
+				Game.createMonster("Orc Warrior", toPosition)
+				Game.createMonster("Orc", toPosition)
+			else
+				local amount = math.random(20, 40)
+				player:addExperience(amount, true)
+			end
+		end
+		local mudpawn = math.random(1, 100)
+		if mudpawn >= 95 then -- 5%
+			Game.createMonster("Wolf", toPosition)
+			elseif mudpawn > 85 and mudpawn < 95 then --10%
+				Game.createMonster("Bear", toPosition)
+			elseif mudpawn == 65 then --1%
+				Game.createMonster("Rat", toPosition)
+				Game.createMonster("Rat", toPosition)
+				Game.createMonster("Rat", toPosition)
+			elseif mudpawn < 2 then --2%
+				Game.createMonster("Rotworm", toPosition)
+			elseif mudpawn == 1 then --1%
+				local amount = math.random(10, 15)
+				player:addExperience(amount, true)
+			else
+			local amountt = math.random(5, 10)
+			player:addExperience(amount, true)
+			toPosition:sendMagicEffect(CONST_ME_POFF)
+		end
+		
 		
 	elseif groundId >= 4526 and groundId <= 4541 then
 	
@@ -135,8 +197,18 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		if player:getLevel() >= 30 then
 			local mudspawn3 = math.random(1,100)
 				if mudspawn3 == 95 then
-				Game.createMonster("Orc", toPosition)
+				Game.createMonster("Bandit", toPosition)
+				Game.createMonster("Bandit", toPosition)
+			elseif mudspawn3 == 90 then
+				Game.createMonster("Cyclops", toPosition)
+			elseif mudspawn3 == 85 then
+				Game.createMonster("Cyclops", toPosition)
+			elseif mudspawn3 == 80 then
+				Game.createMonster("Cyclops", toPosition)
 			elseif mudspawn3 == 75 then
+				Game.createMonster("Smuggler", toPosition)
+				Game.createMonster("Smuggler", toPosition)
+				Game.createMonster("Minotaur", toPosition)
 				Game.createMonster("Minotaur", toPosition)
 				else
 			local amount = math.random(1, 3)
@@ -144,11 +216,13 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				player:addExperience(amount, true)
 				end
 		end
+
+
 		
-		if player:getLevel() >= 20 then
+				if player:getLevel() >= 20 then
 			local mudspawn2 = math.random(1, 100)
 			if mudspawn2 == 95 then --5%
-				Game.createMonster("Orc Warrior", toPosition)
+				Game.createMonster("Wild Warrior", toPosition)
 			elseif mudspawn2 == 85 then
 				Game.createMonster("Elf", toPosition)
 			elseif mudspawn2 == 65 then
