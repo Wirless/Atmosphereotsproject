@@ -60,7 +60,7 @@
 	<house name="Carlin Temple I" houseid="237" entryx="1022" entryy="1120" entryz="6" rent="0" townid="2" size="7" />
 	<house name="Carlin Temple II" houseid="238" entryx="1024" entryy="1120" entryz="6" rent="0" townid="2" size="7" />
 	<house name="Hotel Carlinfornia" houseid="239" entryx="1011" entryy="1124" entryz="7" rent="0" townid="2" size="74" />
-	<house name="Butcher Tower I" houseid="251" entryx="1013" entryy="1162" entryz="7" rent="0" townid="2" size="168" />
+	<house name="Butcher Tower I" houseid="251" entryx="1013" entryy="1162" entryz="7" rent="0" townid="2" size="20" />
 	<house name="Butcher Tower II" houseid="252" entryx="1020" entryy="1130" entryz="5" rent="0" townid="2" size="18" />
 	<house name="Flower Shop" houseid="253" entryx="1029" entryy="1137" entryz="6" rent="0" townid="2" size="19" />
 	<house name="Carlin Sky Towers V" houseid="258" entryx="985" entryy="1140" entryz="6" rent="0" townid="2" size="15" />
@@ -76,4 +76,5 @@
 	<house name="Greenshore Hotel II" houseid="856" entryx="876" entryy="933" entryz="7" rent="0" townid="7" size="9" />
 	<house name="Greenshore Hotel I" houseid="857" entryx="881" entryy="933" entryz="7" rent="0" townid="7" size="9" />
 	<house name="Marcs House" houseid="964" entryx="1057" entryy="1152" entryz="7" rent="0" townid="2" size="87" />
+	<house name="Magic Shop" houseid="965" entryx="1014" entryy="1162" entryz="7" rent="0" townid="2" size="147" />
 </houses>

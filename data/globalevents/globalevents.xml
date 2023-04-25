@@ -6,7 +6,8 @@
 	<globalevent name="Experience" interval="1000" script="experience.lua" />
 	<globalevent name="saveall" interval="60000" script="saveall.lua" />
 	
-	<!-- respawns-->
+	<!-- respawns<globalevent name="templepz" interval="1000" script="templepz.lua" />-->
+	
 	<globalevent name="grapes" interval="60000" script="grapes.lua" />
 	<globalevent name="crown shield" interval="7200000" script="respawns/crownshield.lua" />
 	<globalevent name="wedding ring" interval="1200000" script="respawns/weddingrings.lua" />

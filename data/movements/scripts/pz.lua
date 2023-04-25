@@ -3,6 +3,10 @@ local PROTECTION_ZONE_FLAG = TILESTATE_PROTECTIONZONE -- Flag used to mark prote
 
 function onStepIn(creature, item, position, fromPosition)
     local player = creature:getPlayer()
+	
+	
+	
+	
     if player and player:isPlayer() then
         local currentZone = player:getStorageValue(PROTECTION_ZONE_STORAGE)
         local newZone = player:getTile():hasFlag(PROTECTION_ZONE_FLAG)
