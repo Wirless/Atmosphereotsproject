@@ -69,19 +69,19 @@
 		<item id="2179" chance="1100"/><!-- 1.1% gold ring -->
 		<item id="2171" chance="700"/><!-- 0.7% platinum amulet -->
 		<item id="2462" chance="1200"/><!-- 1.2% devil helmet -->
-		<item id="2470" chance="400"/><!-- 0.4% golden legs -->
-		<item id="2472" chance="100"/><!-- 0.1% magic plate armor -->
+		<item id="2470" chance="4"/><!-- 0.004% golden legs -->
+		<item id="2472" chance="1"/><!-- 0.001% magic plate armor -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<inside>
-				<item id="2432" chance="4000"/><!-- 4% fire axe -->
-				<item id="2393" chance="2000"/><!-- 2% giant sword -->
+				<item id="2432" chance="2000"/><!-- 2% fire axe -->
+				<item id="2393" chance="500"/><!-- 0.5% giant sword -->
 				<item id="2387" chance="20000"/><!-- 20% double axe -->
 				<item id="2396" chance="600"/><!-- 0.6% ice rapier -->
-				<item id="2418" chance="1500"/><!-- 1.5% golden sickle -->
-				<item id="2520" chance="700"/><!-- 0.7% demon shield -->
-				<item id="2514" chance="500"/><!-- 0.5% mastermind shield -->
-				<item id="2214" chance="500"/><!-- 0.5% ring of healing -->
-				<item id="2164" chance="200"/><!-- 0.2% might ring -->
+				<item id="2418" chance="1"/><!-- 0.001% golden sickle -->
+				<item id="2520" chance="70"/><!-- 0.07% demon shield -->
+				<item id="2514" chance="10"/><!-- 0.01% mastermind shield -->
+				<item id="2214" chance="50"/><!-- 0.05% ring of healing -->
+				<item id="2164" chance="20"/><!-- 0.02% might ring -->
 				<item id="2165" chance="1400"/><!-- 1.4% stealth ring -->
 			</inside>
 		</item>

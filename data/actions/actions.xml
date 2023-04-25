@@ -9,7 +9,7 @@
 	
 	
 	<!-- levers -->
-	<action actionid="15526" script="levers/fibulalever.lua" />
+	<action uniqueid="15525" script="levers/fibulalever.lua" />
 	
 	<!-- servidor actions-->
 	<action itemid="1956" script="other/maps.lua" />

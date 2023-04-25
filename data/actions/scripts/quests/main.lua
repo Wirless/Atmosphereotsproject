@@ -353,6 +353,88 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		else
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
 		end
+		
+		--carlins
+	elseif uniqueId == 4254 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 4254 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(4254) -- Set the action ID of the key item
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
+		end
+		
+	elseif uniqueId == 4255 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 4255 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(4255) -- Set the action ID of the key item
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
+		end
+	elseif uniqueId == 4256 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 4256 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(4256) -- Set the action ID of the key item
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
+		end
+	elseif uniqueId == 4257 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 4257 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(4257) -- Set the action ID of the key item
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
+		end
+	elseif uniqueId == 4258 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 4258 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(4258) -- Set the action ID of the key item
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
+		end
+		-- NEXT
+		elseif uniqueId == 4260 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 4260 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			local keyItem = player:addItem(2088, 1)
+			keyItem:setActionId(4260) -- Set the action ID of the key item
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found a key!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
+		end
 	-- black knight key
 	
 	
@@ -469,11 +551,69 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		if player:getStorageValue(storageValue) < 1 then
 			player:addItem(2487, 1)
 			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have completed the black knight quest and received your rewards!")
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found crown armor!")
 		else
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have already completed the black knight quest and cannot receive more rewards.")
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
 		end
-	
+	elseif uniqueId == 8011 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 8011 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			player:addItem(2520, 1)
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found demon shield!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty")
+		end
+	elseif uniqueId == 8012 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 8012 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			player:addItem(2466, 1)
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found golden armor!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty")
+		end
+	elseif uniqueId == 8013 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 8013 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			player:addItem(2427, 1)
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found guardian halberd!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty")
+		end
+	elseif uniqueId == 8014 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 8014 -- Change this to the storage value required for the quest
+
+        local totalWeight = 0
+
+		if player:getStorageValue(storageValue) < 1 then
+			player:addItem(2164, 1)
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found might ring!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty")
+		end
+	elseif uniqueId == 8088 then -- Check for unique ID 9905 (black knight quest)
+        local storageValue = 8088 -- Change this to the storage value required for the quest
+
+
+		if player:getStorageValue(storageValue) < 1 then
+			player:addItem(2656, 1)
+			player:setStorageValue(storageValue, 1) -- Set storage value to indicate quest completion
+			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You have found blue robe!")
+		else
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty")
+		end
 	
 	
 	elseif uniqueId == 2 then -- Check for unique ID 2 (other quest)

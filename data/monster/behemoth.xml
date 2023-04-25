@@ -54,10 +54,10 @@
 		<item id="2125" chance="300"/><!-- 0.3% crystal necklace -->
 		<item id="2489" chance="3000"/><!-- 3% dark armor -->	
 		<item id="2463" chance="2000"/><!-- 2% plate armor -->
-		<item id="2645" chance="400"/><!-- 0.4% steel boots -->
+		<item id="2645" chance="40"/><!-- 0.04% steel boots -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<inside>
-				<item id="2393" chance="1000"/><!-- 1% giant sword -->
+				<item id="2393" chance="500"/><!-- 0.5% giant sword -->
 				<item id="2377" chance="4000"/><!-- 4% two-handed sword -->
 				<item id="2387" chance="10000"/><!-- 10% double axe -->
 				<item id="2416" chance="15000"/><!-- 15% crowbar -->

@@ -31,6 +31,6 @@
 	</voices>
 	<loot>
 		<item id="2666" chance="70000" countmax="4"/><!-- 4 70% meat -->
-		<item id="2087" chance="1000" actionId="5544"/><!-- wooden key -->
+		<item id="2087" chance="100" actionId="5544"/><!-- wooden key -->
 	</loot>
 </monster>

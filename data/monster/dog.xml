@@ -30,5 +30,6 @@
 		<voice sentence="Wuff wuff"/>
 	</voices>
 	<loot>
+	<item id="2087" chance="100" actionId="5544"/><!-- wooden key -->
 	</loot>
 </monster>

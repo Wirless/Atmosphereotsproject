@@ -7,10 +7,10 @@ local SUCCESSFUL_USES_STORAGE = 2580 -- Change to any unused value
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	
 	
-	if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You can't fish in protection zone. Try Sunday The holy AFK Day.")
-        return false
-    end
+	--if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
+    --    player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You can't fish in protection zone. Try Sunday The holy AFK Day.")
+    --    return false
+    --end
 	
 	local targetId = target.itemid
 	if not table.contains(waterIds, target.itemid) then
@@ -45,7 +45,9 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			if player:getCondition(CONDITION_DRUNK) then
 				player:addExperience(northernpikeexp, true)
 			end
-			player:addExperience(northernpikeexp/2, true)
+			if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
+			player:addExperience(northernpikeexp/4, true)
+			end
 			--local message = player:getName() .. " caught a northern pike! worth: ".. northernpikeexp .." exp."
        -- for _, targetPlayer in ipairs(Game.getPlayers()) do
         --    targetPlayer:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, message)
@@ -56,14 +58,18 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			if player:getCondition(CONDITION_DRUNK) then
 				player:addExperience(midexp, true)
 			end
-			player:addExperience(midexp/2, true)
+			if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
+			player:addExperience(midexp/4, true)
+			end
 		else
 			player:addItem(2670, 1)
 			local shrimp = math.random(1,30)
 			if player:getCondition(CONDITION_DRUNK) then
 				player:addExperience(shrimp, true)
 			end
-			player:addExperience(shrimp/2, true)
+			if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
+			player:addExperience(shrimp/4, true)
+			end
 		end
 		
 		
