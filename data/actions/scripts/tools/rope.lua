@@ -5,7 +5,14 @@ local holeId = {
 	8567, 8585, 8595, 8596, 8972, 9606, 9625, 13190, 14461, 19519, 21536
 }
 
+
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	local exhaustStorage = 9999 -- change to desired exhaust storage value
+	if player:getStorageValue(exhaustStorage) > os.time() then
+		player:sendCancelMessage("You must wait a while before using this again.")
+		return true
+	end
+
 	local tile = Tile(toPosition)
 	if not tile then
 		return false
@@ -27,11 +34,14 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				if Tile(toPosition:moveUpstairs()):hasFlag(TILESTATE_PROTECTIONZONE) and thing:isPzLocked() then
 					return false
 				end
+				player:setStorageValue(exhaustStorage, os.time() + 60) -- set exhaust storage value to current time plus 60 seconds
+				player:setStorageValue(5565633, player:getStorageValue(5565633) + 1)
 				return thing:teleportTo(toPosition, false)
 			end
 			if thing:isItem() and thing:getType():isMovable() then
 				return thing:moveTo(toPosition:moveUpstairs())
 			end
+			
 		
 		end
 		player:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)

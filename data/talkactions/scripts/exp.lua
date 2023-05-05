@@ -8,10 +8,10 @@ function onSay(player, words, param)
     
     if currentValue == 1 then
         player:setStorageValue(storageId, 0)
-        player:sendTextMessage(MESSAGE_INFO_DESCR, "Experience gain is now on.")
+        player:sendTextMessage(MESSAGE_INFO_DESCR, "visual Experience gain is now on.")
     else
         player:setStorageValue(storageId, 1)
-        player:sendTextMessage(MESSAGE_INFO_DESCR, "Experience gain is now off.")
+        player:sendTextMessage(MESSAGE_INFO_DESCR, "visual Experience gain is now off.")
     end
 
     return false

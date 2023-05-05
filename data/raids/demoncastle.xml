@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<announce delay="1000" type="warning" message="There is mysterious sounds coming from underneath Senja Castle.." />
+
+	<areaspawn delay="2000" radius="4" centerx="946" centery="1004" centerz="8">
+		<monster name="demon" amount="1" />
+		<monster name="banshee" amount="3" />
+	</areaspawn>
+</raid>

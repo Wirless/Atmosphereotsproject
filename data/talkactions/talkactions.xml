@@ -17,6 +17,7 @@
 	<talkaction words="/info" separator=" " script="info.lua" />
 	<talkaction words="/r" separator=" " script="removething.lua" />
 	<talkaction words="/kick" separator=" " script="kick.lua" />
+	<talkaction words="/promote" separator=" " script="promote.lua" />
 	<talkaction words="/openserver" script="openserver.lua" />
 	<talkaction words="/closeserver" separator=" " script="closeserver.lua" />
 	<talkaction words="/B" separator=" " script="broadcast.lua" />

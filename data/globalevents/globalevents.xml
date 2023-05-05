@@ -16,17 +16,21 @@
 	<globalevent name="blankrunes" interval="600000" script="respawns/blankrunes.lua" />
 	<globalevent name="maps" interval="600000" script="respawns/maps.lua" />
 	<globalevent name="modelship" interval="14200000" script="respawns/modelship.lua" />
+	<globalevent name="chests" interval="5000" script="respawns/chests.lua" />
 	<globalevent name="holyorchid" interval="20000" script="respawns/holyorchid.lua" />
 	<globalevent name="liferings" interval="14200000" script="respawns/liferings.lua" />
 	<globalevent name="backpack" interval="360000" script="respawns/backpacks.lua" />
 	<globalevent name="grapetemple" interval="300000" script="respawns/grapetemple.lua" />
+	
 	<globalevent name="color" interval="2000" script="color.lua"/>
-	<globalevent name="message1" interval="1200000" script="message1.lua"/>
-	<globalevent name="message2" interval="1800000" script="message2.lua"/>
+	<globalevent name="message1" interval="3200000" script="message1.lua"/>
+	<globalevent name="message2" interval="600000" script="message2.lua"/>
 	<globalevent name="magicwardrobe" interval="2000" script="magicwardrobe.lua"/>
 	<globalevent name="magicwardrobe2" interval="2000" script="magicwardrobe2.lua"/>
-	<!--
+		
+	<!-- disabled
 	<globalevent name="timer_example" time="12:00:00" script="my_script.lua" />
+<globalevent name="amen" interval="300000" script="respawns/amen.lua" />
 	<globalevent name="toptemple" interval="1000" script="spawnboss/toptemple.lua" />
 	-->
 </globalevents>

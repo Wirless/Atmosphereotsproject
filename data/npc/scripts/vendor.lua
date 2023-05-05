@@ -38,8 +38,9 @@ shopModule:addBuyableItem({'red backpack'}, 2000, 1000, 'red backpack')
 shopModule:addBuyableItem({'purple backpack'}, 2001, 1000, 'purple backpack')
 shopModule:addBuyableItem({'blue backpack'}, 2002, 1000, 'blue backpack')
 
-
-
+shopModule:addSellableItem({'northern pike'}, 2669, 100,'northern pike')
+shopModule:addSellableItem({'fish'}, 2667, 8,'fish')
+shopModule:addSellableItem({'shrimp'}, 2670, 3,'shrimp')
 shopModule:addSellableItem({'halberd'}, 2381, 200,'halberd')
 shopModule:addSellableItem({'red rose'}, 2744, 300,'red rose')
 shopModule:addSellableItem({'blue rose'}, 2745, 300,'blue rose')

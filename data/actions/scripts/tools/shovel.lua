@@ -31,6 +31,8 @@ local items = {
 
 local holes = {468, 481, 483}
 
+
+
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
     local tile = Tile(toPosition)
     if not tile then
@@ -58,7 +60,6 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			local mudspawn3 = math.random(1,100)
 				if mudspawn3 == 95 then
 				Game.createMonster("Orc Warrior", toPosition)
-				Game.createMonster("Orc Warrior", toPosition)
 			elseif mudspawn3 == 90 then
 				Game.createMonster("Orc", toPosition)
 			elseif mudspawn3 == 85 then
@@ -72,7 +73,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				Game.createMonster("Minotaur", toPosition)
 				else
 			local amount = math.random(1, 3)
-				player:addItem(3976, amount)
+				if player:getFreeCapacity() > 4000 then
+				player:addItem(3976, amount) 
+				else
+				player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You didnt get worms because you have no cap.")
+				end
 				player:addExperience(amount, true)
 				end
 		end
@@ -92,7 +97,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				Game.createMonster("Orc", toPosition)
 			else
 				local amount = math.random(1, 3)
-				player:addItem(3976, amount)
+				if player:getFreeCapacity() > 4000 then
+				player:addItem(3976, amount) 
+				else
+				player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You didnt get worms because you have no cap.")
+				end
 				player:addExperience(amount, true)
 			end
 		end
@@ -112,12 +121,16 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				Game.createMonster("Rotworm", toPosition)
 				elseif mudpawn == 1 then --1%
 				local amount = math.random(1, 0)
-				player:addItem(3976, amount)
+				player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You didnt get worms because you have no cap.")
 				target:getPosition():sendMagicEffect(10)
 				player:addExperience(amount, true)
 			elseif mudpawn <= 25 then -- 25%
 				local amount = math.random(1, 3)
-				player:addItem(3976, amount)
+				if player:getFreeCapacity() > 4000 then
+				player:addItem(3976, amount) 
+				else
+				player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You didnt get worms because you have no cap.")
+				end
 				--Game.createItem(3976, amount, toPosition)
 
 				player:addExperience(amount, true)
@@ -144,9 +157,17 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				Game.createMonster("Dwarf Guard", toPosition)
 			elseif mudspawn3 == 85 then
 				Game.createMonster("Dragon", toPosition)
-			elseif mudspawn3 <= 55 then
+			elseif mudspawn3 == 55 then
 				Game.createMonster("Dwarf guard", toPosition)
-			elseif mudspawn3 <= 35 then
+			elseif mudspawn3 == 54 then
+				Game.createMonster("Dwarf guard", toPosition)
+				elseif mudspawn3 == 53 then
+				Game.createMonster("Dwarf guard", toPosition)
+				elseif mudspawn3 == 52 then
+				Game.createMonster("Dwarf guard", toPosition)
+				elseif mudspawn3 == 51 then
+				Game.createMonster("Dwarf guard", toPosition)
+			elseif mudspawn3 == 35 then
 				Game.createMonster("Dwarf Soldier", toPosition)
 				Game.createMonster("Dwarf Soldier", toPosition)
 				Game.createMonster("Dwarf Guard", toPosition)
@@ -159,15 +180,15 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		
 		if player:getLevel() >= 35 then
 			local mudspawn2 = math.random(1, 100)
-			if mudspawn2 >= 95 then --5%
+			if mudspawn2 == 95 then --5%
 				Game.createMonster("Wild warrior", toPosition)
-			elseif mudspawn2 >= 85 then
+			elseif mudspawn2 == 85 then
 				Game.createMonster("Smuggler", toPosition)
-			elseif mudspawn2 >= 65 then
+			elseif mudspawn2 == 65 then
 				Game.createMonster("Cyclops", toPosition)
-			elseif mudspawn2 >= 55 then
+			elseif mudspawn2 == 55 then
 				Game.createMonster("Minotaur", toPosition)
-			elseif mudspawn2 >= 45 then
+			elseif mudspawn2 == 45 then
 				Game.createMonster("Orc Warrior", toPosition)
 				Game.createMonster("Orc", toPosition)
 			else
@@ -204,7 +225,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			end
 	
 		if player:getLevel() >= 30 then
-			local mudspawn3 = math.random(1,100)
+			local mudspawn3 = math.random(1,1000)
 				if mudspawn3 == 95 then
 				Game.createMonster("Bandit", toPosition)
 				Game.createMonster("Bandit", toPosition)
@@ -221,15 +242,18 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				Game.createMonster("Minotaur", toPosition)
 				else
 			local amount = math.random(1, 3)
-				player:addItem(3976, amount)
+				if player:getFreeCapacity() > 4000 then
+				player:addItem(3976, amount) 
+				else
+				player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You didnt get worms because you have no cap.")
+				end
 				player:addExperience(amount, true)
 				end
 		end
 
 
-		
-				if player:getLevel() >= 20 then
-			local mudspawn2 = math.random(1, 100)
+		if player:getLevel() >= 20 then
+			local mudspawn2 = math.random(1, 1000)
 			if mudspawn2 == 95 then --5%
 				Game.createMonster("Wild Warrior", toPosition)
 			elseif mudspawn2 == 85 then
@@ -243,26 +267,36 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 				Game.createMonster("Orc", toPosition)
 			else
 				local amount = math.random(1, 3)
-				player:addItem(3976, amount)
+				if player:getFreeCapacity() > 4000 then
+				player:addItem(3976, amount) 
+				else
+				player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You didnt get worms because you have no cap.")
+				end
 				player:addExperience(amount, true)
 			end
 		end
 		
-		local grasspawn = math.random(1, 100)
-		if grasspawn >= 95 then -- 5%
+		local grasspawn = math.random(1, 1000)
+		if grasspawn == 95 then -- 5%
             Game.createMonster("Snake", toPosition)
-		elseif grasspawn >= 85 then --10%
+		elseif grasspawn == 85 then --10%
 			Game.createMonster("Spider", toPosition)
-		elseif grasspawn >= 75 then --10%
+		elseif grasspawn == 75 then --10%
 			Game.createMonster("Spider", toPosition)
 			Game.createMonster("Spider", toPosition)
-		elseif grasspawn >= 65 then --10%
+		elseif grasspawn == 65 then --10%
 			Game.createMonster("Orc", toPosition)
-		elseif grasspawn >= 55 then--10%
+		elseif grasspawn == 55 then--10%
 			Game.createMonster("Rotworm", toPosition)
-		elseif grasspawn >= 45 then --10%
+		elseif grasspawn == 45 then --10%
 			Game.createMonster("Minotaur", toPosition)
 		else
+			local amount = math.random(1, 3)
+			if player:getFreeCapacity() > 4000 then
+				player:addItem(3976, amount) 
+				else
+				player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You didnt get worms because you have no cap.")
+				end
 			toPosition:sendMagicEffect(CONST_ME_POFF)
 		end
 	
@@ -271,7 +305,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	elseif target.itemid == 2824 then
         target:transform(3085)
         target:decay()
-        player:addItem(3976, math.random(1, 5))
+        if player:getFreeCapacity() > 4000 then
+				player:addItem(3976, amount) 
+				else
+				player:addItem(3976, 3)
+				end
         local exp = math.random(10,40)
         player:addExperience(exp, true)
         --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from gathering.")

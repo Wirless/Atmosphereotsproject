@@ -4,8 +4,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	
 	if target.itemid == 2761 then
     local exp = math.random(1, 150)
-    player:addExperience(exp, true)
-    --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience cutting orchids.")
+	if player:getCondition(CONDITION_DRUNK) then
+				player:addExperience(exp*2, true)
+	end
+	player:addExperience(exp, true)
+    --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience cutting s.")
     target:getPosition():sendMagicEffect(13)
     -- 1% chance to get a colored rose
     local chance = math.random(1, 100)
@@ -37,8 +40,9 @@ end
         -- increment the counter and check if it reached 100
         counter = counter + 1
         player:setStorageValue(2405, counter)
-        if counter % 100 == 0 then
-            local expReward = math.random(50, 500)
+        if counter % 10000 == 0 then
+            local expReward = math.random(1, 50000)
+			player:setStorageValue(55656, player:getStorageValue(55656) + 1)
             player:addExperience(expReward)
             player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, string.format("Congratulations! You've gathered and earned %d experience points.", expReward))
 			player:getPosition():sendMagicEffect(28)

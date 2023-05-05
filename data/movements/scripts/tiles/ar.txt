@@ -1,0 +1,27 @@
+fence id 1544 pos 1012 1001 10 trigger
+
+23001 walkable tile maps
+
+
+fence id 1543 pos 1024 1000 10
+23002 walkable tile map
+
+
+fenceid 1544 pos 982 1001 11
+
+23003 walkable tile map
+
+ 1544 pos 1003 1007 11
+23004 walkable tile map
+
+
+CHESTS 7942
+
+
+
+23005 WALKABLE CREATE WALL ONLY onStepIn 
+Lute 2072 -- use on position
+1005 1008 9 
+remove 1543
+
+1964 NEW BOOK ONLY IN PZ TELEPORT TO NEW ISLEz

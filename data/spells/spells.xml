@@ -37,6 +37,7 @@
 	<instant name="Find Person" words="exiva" needlearn="0" lvl="8" mana="20" params="1" script="support/find_person.lua"/>
 	<instant name="Magic Rope" words="exani tera" needlearn="0" lvl="9" mana="20" aggressive="0" script="support/magic_rope.lua"/>
 	<instant name="Light Healing" words="exura" needlearn="0" lvl="9" mana="25" selftarget="1" aggressive="0" script="healing/light_healing.lua"/>
+	<instant name="manadown" words="manadown" needlearn="0" lvl="1" mana="1000" selftarget="1" aggressive="0" script="healing/manadown.lua"/>
 	<instant name="Antidote" words="exana pox" needlearn="0" lvl="10" mana="30" selftarget="1" aggressive="0" script="healing/cure_poison.lua"/>
 	<instant name="Intense Healing" words="exura gran" needlearn="0" lvl="11" mana="40" selftarget="1" aggressive="0" script="healing/intense_healing.lua">
 		<vocation name="Sorcerer"/> 

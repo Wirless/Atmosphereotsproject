@@ -14,7 +14,7 @@ end
 combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
 
 function onCastSpell(creature, variant)
-	local manaCost = creature:getLevel() * 4
+	local manaCost = creature:getLevel() 
 	if creature:getMana() < manaCost and not creature:hasFlag(PlayerFlag_HasInfiniteMana) then
 		creature:sendCancelMessage(RETURNVALUE_NOTENOUGHMANA)
 		creature:getPosition():sendMagicEffect(CONST_ME_POFF)

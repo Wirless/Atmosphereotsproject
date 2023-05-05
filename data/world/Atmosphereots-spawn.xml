@@ -460,8 +460,82 @@
 	<spawn centerx="1185" centery="1020" centerz="5" radius="1">
 		<monster name="tarantula" x="1" y="0" z="5" spawntime="120" />
 	</spawn>
+	<spawn centerx="940" centery="1024" centerz="5" radius="1">
+		<monster name="marid" x="0" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="0" y="1" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="942" centery="1024" centerz="5" radius="1">
+		<monster name="marid" x="0" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="0" y="1" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="944" centery="1024" centerz="5" radius="1">
+		<monster name="marid" x="0" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="0" y="1" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="946" centery="1024" centerz="5" radius="1">
+		<monster name="efreet" x="0" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="0" y="1" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="949" centery="1025" centerz="5" radius="1">
+		<monster name="efreet" x="-1" y="-1" z="5" spawntime="240" />
+		<monster name="efreet" x="0" y="-1" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="-1" z="5" spawntime="240" />
+		<monster name="efreet" x="-1" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="0" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="-1" y="1" z="5" spawntime="240" />
+		<monster name="efreet" x="0" y="1" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
 	<spawn centerx="1177" centery="1025" centerz="5" radius="1">
 		<monster name="tarantula" x="0" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="941" centery="1026" centerz="5" radius="1">
+		<monster name="marid" x="-1" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="0" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="-1" y="1" z="5" spawntime="240" />
+		<monster name="marid" x="0" y="1" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="944" centery="1026" centerz="5" radius="1">
+		<monster name="marid" x="-1" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="0" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="-1" y="1" z="5" spawntime="240" />
+		<monster name="marid" x="0" y="1" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="946" centery="1026" centerz="5" radius="1">
+		<monster name="efreet" x="0" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="0" y="1" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="949" centery="1027" centerz="5" radius="1">
+		<monster name="efreet" x="-1" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="0" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="-1" y="1" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="942" centery="1028" centerz="5" radius="1">
+		<monster name="marid" x="0" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="944" centery="1028" centerz="5" radius="1">
+		<monster name="marid" x="0" y="0" z="5" spawntime="240" />
+		<monster name="marid" x="1" y="0" z="5" spawntime="240" />
+	</spawn>
+	<spawn centerx="946" centery="1028" centerz="5" radius="1">
+		<monster name="efreet" x="0" y="0" z="5" spawntime="240" />
+		<monster name="efreet" x="1" y="0" z="5" spawntime="240" />
 	</spawn>
 	<spawn centerx="908" centery="1037" centerz="5" radius="1">
 		<monster name="beholder" x="0" y="0" z="5" spawntime="240" />
@@ -1882,6 +1956,20 @@
 		<monster name="skeleton" x="-4" y="7" z="9" spawntime="120" />
 		<monster name="skeleton" x="1" y="8" z="9" spawntime="120" />
 	</spawn>
+	<spawn centerx="977" centery="1013" centerz="9" radius="8">
+		<monster name="ghoul" x="-1" y="-6" z="9" spawntime="120" />
+		<monster name="ghoul" x="0" y="-5" z="9" spawntime="120" />
+		<monster name="ghoul" x="7" y="-5" z="9" spawntime="120" />
+		<monster name="skeleton" x="-1" y="-2" z="9" spawntime="120" />
+		<monster name="ghoul" x="6" y="0" z="9" spawntime="120" />
+		<monster name="ghoul" x="7" y="4" z="9" spawntime="120" />
+		<monster name="ghoul" x="7" y="5" z="9" spawntime="120" />
+		<monster name="demon skeleton" x="-5" y="6" z="9" spawntime="120" />
+	</spawn>
+	<spawn centerx="984" centery="1013" centerz="9" radius="8">
+		<monster name="demon skeleton" x="6" y="-6" z="9" spawntime="120" />
+		<monster name="demon skeleton" x="5" y="-5" z="9" spawntime="120" />
+	</spawn>
 	<spawn centerx="1102" centery="1037" centerz="9" radius="12">
 		<monster name="larva" x="-2" y="-10" z="9" spawntime="120" />
 		<monster name="skeleton" x="4" y="-10" z="9" spawntime="120" />
@@ -1925,7 +2013,7 @@
 	</spawn>
 	<spawn centerx="1007" centery="1006" centerz="10" radius="8">
 		<monster name="ghoul" x="-3" y="-4" z="10" spawntime="120" />
-		<monster name="ghoul" x="5" y="-4" z="10" spawntime="120" />
+		<monster name="ghoul" x="6" y="-4" z="10" spawntime="120" />
 		<monster name="ghoul" x="3" y="-3" z="10" spawntime="120" />
 		<monster name="ghoul" x="-1" y="0" z="10" spawntime="120" />
 		<monster name="ghoul" x="0" y="4" z="10" spawntime="120" />

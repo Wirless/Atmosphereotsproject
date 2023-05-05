@@ -40,35 +40,52 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		local rareChance = math.random(1, 1000)
 		
 		if rareChance == 1 then
+			if player:getFreeCapacity() > 4000 then
 			player:addItem(2669, 1)
+			else
+			player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "Not adding fish because no cap.")	
+			end
 			local northernpikeexp = math.random(50,100)
 			if player:getCondition(CONDITION_DRUNK) then
 				player:addExperience(northernpikeexp, true)
 			end
 			if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
-			player:addExperience(northernpikeexp/4, true)
+				player:addExperience(northernpikeexp/6, true)
+			else
+			player:addExperience(northernpikeexp/2, true)
 			end
-			--local message = player:getName() .. " caught a northern pike! worth: ".. northernpikeexp .." exp."
-       -- for _, targetPlayer in ipairs(Game.getPlayers()) do
-        --    targetPlayer:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, message)
-		--end
+		
 		elseif rareChance <= 100 then
+		
+			if player:getFreeCapacity() > 4000 then
 			player:addItem(2667, 1)
+			else
+			player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "Not adding fish because no cap.")	
+			end
 			local midexp = math.random(10,60)
+			
 			if player:getCondition(CONDITION_DRUNK) then
 				player:addExperience(midexp, true)
 			end
 			if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
-			player:addExperience(midexp/4, true)
+				player:addExperience(midexp/6, true)
+			else
+			player:addExperience(midexp/2, true)
 			end
 		else
+			if player:getFreeCapacity() > 4000 then
 			player:addItem(2670, 1)
+			else
+			player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "Not adding fish because no cap.")	
+			end
 			local shrimp = math.random(1,30)
 			if player:getCondition(CONDITION_DRUNK) then
 				player:addExperience(shrimp, true)
 			end
 			if player:getTile():hasFlag(TILESTATE_PROTECTIONZONE) then
-			player:addExperience(shrimp/4, true)
+				player:addExperience(shrimp/6, true)
+			else
+			player:addExperience(shrimp/2, true)
 			end
 		end
 		
@@ -77,10 +94,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		 -- Increment successful uses and check if reset is needed
     local successfulUses = player:getStorageValue(SUCCESSFUL_USES_STORAGE) + 1
     player:setStorageValue(SUCCESSFUL_USES_STORAGE, successfulUses)
-    if successfulUses % 100 == 0 then
+    if successfulUses % 10000 == 0 then
         -- Award random experience between 100 and 1000
         local exp = math.random(100, 1000)
         player:addExperience(exp, true)
+		player:setStorageValue(55656, player:getStorageValue(55656) + 1)
         --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from successful gathering!")
         player:setStorageValue(SUCCESSFUL_USES_STORAGE, 0) -- Reset successful uses
 		player:getPosition():sendMagicEffect(28)

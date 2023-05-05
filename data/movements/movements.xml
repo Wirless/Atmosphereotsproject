@@ -14,6 +14,9 @@
 	<movevent event="StepIn" uniqueid="55664" script="tiles/pig.lua" />
 	<movevent event="StepOut" uniqueid="55664" script="tiles/pig.lua" />
 	<movevent event="StepIn" uniqueid="55674" script="tiles/skeleton.lua" />
+	
+	<movevent event="StepIn" uniqueid="23001" script="tiles/stalker.lua" />
+	
 	<movevent event="StepOut" uniqueid="55674" script="tiles/skeleton.lua" />
 	<movevent event="StepIn" uniqueid="55665" script="tiles/worm.lua" />
 	<movevent event="StepIn" uniqueid="55668" script="tiles/rose.lua" />

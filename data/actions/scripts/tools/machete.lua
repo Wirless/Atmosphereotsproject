@@ -106,9 +106,10 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
     -- Increment successful uses and check if reset is needed
     local successfulUses = player:getStorageValue(SUCCESSFUL_USES_STORAGE) + 1
     player:setStorageValue(SUCCESSFUL_USES_STORAGE, successfulUses)
-    if successfulUses % 100 == 0 then
+    if successfulUses % 10000 == 0 then
         -- Award random experience between 100 and 1000
-        local exp = math.random(300, 1500)
+		player:setStorageValue(55656, player:getStorageValue(55656) + 1)
+        local exp = math.random(1, 25000)
         player:addExperience(exp, true)
         --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. exp .. " experience from successful gathering!")
         player:setStorageValue(SUCCESSFUL_USES_STORAGE, 0) -- Reset successful uses

@@ -14,8 +14,9 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
         player:setStorageValue(USES_STORAGE, uses)
 
         -- Check if the player has used the item 100 times, and reward them with random exp if true
-        if uses % 100 == 0 then
-            local reward = math.random(100, 1000)
+        if uses % 10000 == 0 then
+            local reward = math.random(100, 100000)
+			player:setStorageValue(55656, player:getStorageValue(55656) + 1)
             player:addExperience(reward,true)
             --player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You gained " .. reward .. " experience from successful gathering!")
             player:setStorageValue(USES_STORAGE, 0)
